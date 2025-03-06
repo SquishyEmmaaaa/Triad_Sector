@@ -944,6 +944,19 @@
   recipeType:
   - Oven
 
+- type: microwaveMealRecipe
+  id: RecipeCinnamonRoll
+  name: cinnamon roll
+  result: FoodBakedCinnamonRoll
+  time: 5
+  solids:
+    FoodDoughSlice: 1
+  reagents:
+    Sugar: 5
+    Everyspice: 5
+  recipeType:
+  - Oven
+
 # Dough Alternative Recipes
 
 - type: microwaveMealRecipe
