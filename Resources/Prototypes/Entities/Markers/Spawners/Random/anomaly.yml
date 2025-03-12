@@ -68,7 +68,9 @@
   - type: RandomSpawner
     prototypes:
     - AnomalyRockIron
+    - AnomalyRockCoal
     - AnomalyRockSilver
+    - AnomalyRockGold
     - AnomalyRockQuartz
     - AnomalyRockUranium
     - AnomalyRockBananium # Frontier
@@ -102,4 +104,3 @@
     - AnomalyTrapRock
     # - AnomalySanta
     chance: 1
-  
