@@ -249,7 +249,7 @@
     bloodMaxVolume: 100
   - type: EggLayer
     eggSpawn:
-    - id: FoodEgg
+    - id: FoodEggLaid # Frontier: FoodEgg<FoodEggLaid
   - type: ExaminableHunger
   - type: LanguageKnowledge # Einstein Engines - Language
     speaks:
@@ -262,6 +262,9 @@
     factions:
     - Passive
     - Chicken # Frontier
+  - type: HTN # Frontier
+    rootTask: # Frontier
+      task: RuminantCompound # Frontier
 
 - type: entity
   parent: MobChicken
@@ -315,7 +318,7 @@
 
 - type: entity
   id: FoodEggChickenFertilized
-  parent: FoodEgg
+  parent: FoodEggLaid # Frontier: FoodEgg<FoodEggLaid
   suffix: Fertilized, Chicken
   components:
   - type: Timer
@@ -710,7 +713,7 @@
     bloodMaxVolume: 100
   - type: EggLayer
     eggSpawn:
-    - id: FoodEgg
+    - id: FoodEggLaid # Frontier: FoodEgg<FoodEggLaid
   - type: ExaminableHunger
   - type: LanguageKnowledge # Einstein Engines - Language
     speaks:
@@ -722,6 +725,9 @@
   - type: NpcFactionMember
     factions:
     - Passive
+  - type: HTN # Frontier
+    rootTask: # Frontier
+      task: RuminantCompound # Frontier
 
 - type: entity
   name: white duck #Quack
@@ -763,7 +769,7 @@
 
 - type: entity
   id: FoodEggDuckFertilized
-  parent: FoodEgg
+  parent: FoodEggLaid # Frontier: FoodEgg<FoodEggLaid
   suffix: Fertilized, Duck
   components:
   - type: Timer

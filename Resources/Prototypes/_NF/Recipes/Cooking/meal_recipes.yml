@@ -150,9 +150,10 @@
   result: FoodMealBreakfastBagel
   time: 5
   group: Breakfast
+  reagents:
+    Egg: 12
   solids:
     FoodBagel: 1
-    FoodEgg: 2
     FoodAvocadoSlice: 1
     FoodCheeseSlice: 1
   recipeType:
@@ -164,9 +165,10 @@
   result: FoodMealBreakfastBagelPoppy
   time: 5
   group: Breakfast
+  reagents:
+    Egg: 12
   solids:
     FoodBagelPoppy: 1
-    FoodEgg: 2
     FoodAvocadoSlice: 1
     FoodCheeseSlice: 1
   recipeType:
