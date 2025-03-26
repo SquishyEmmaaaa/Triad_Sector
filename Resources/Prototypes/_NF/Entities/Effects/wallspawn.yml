@@ -70,6 +70,7 @@
   - type: SpawnOnDespawn
     prototype: NFAsteroidRockSaltCrab
 
+# Missing upstream minerals
 - type: entity
   id: WallSpawnAsteroidBananium
   parent: WallSpawnAsteroid
