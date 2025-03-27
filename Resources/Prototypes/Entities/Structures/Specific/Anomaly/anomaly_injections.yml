@@ -310,9 +310,9 @@
       - WallSpawnAsteroid
       - WallSpawnAsteroid
       - WallSpawnAsteroidSilver
-      - WallSpawnAsteroidSilverCrab
+      - NFWallSpawnAsteroidSilverCrab # Frontier: use NF variant
       - WallSpawnAsteroidIron
-      - WallSpawnAsteroidIronCrab
+      - NFWallSpawnAsteroidIronCrab # Frontier: use NF variant
       - WallSpawnAsteroidQuartz
       - NFWallSpawnAsteroidQuartzCrab # Frontier: use NF variant
     - settings:
@@ -337,9 +337,9 @@
       - WallSpawnAsteroid
       - WallSpawnAsteroid
       - WallSpawnAsteroidSilver
-      - WallSpawnAsteroidSilverCrab
+      - NFWallSpawnAsteroidSilverCrab # Frontier: use NF variant
       - WallSpawnAsteroidIron
-      - WallSpawnAsteroidIronCrab
+      - NFWallSpawnAsteroidIronCrab # Frontier: use NF variant
       - WallSpawnAsteroidQuartz
       - NFWallSpawnAsteroidQuartzCrab # Frontier: use NF variant
     - settings:

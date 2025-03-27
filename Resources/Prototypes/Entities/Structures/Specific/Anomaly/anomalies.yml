@@ -529,7 +529,7 @@
       - WallSpawnAsteroid
       - WallSpawnAsteroid
       - WallSpawnAsteroidSilver
-      - WallSpawnAsteroidSilverCrab
+      - NFWallSpawnAsteroidSilverCrab # Frontier: use NF variant
     - settings:
         spawnOnPulse: true
         maxAmount: 3
@@ -547,7 +547,7 @@
       - CrystalCyan
       - WallSpawnAsteroid
       - WallSpawnAsteroid
-      - WallSpawnAsteroidSilverCrab
+      - NFWallSpawnAsteroidSilverCrab # Frontier: use NF variant
     - settings:
         spawnOnSuperCritical: true
         minAmount: 6
@@ -629,7 +629,7 @@
       - WallSpawnAsteroid
       - WallSpawnAsteroid
       - WallSpawnAsteroidIron
-      - WallSpawnAsteroidIronCrab
+      - NFWallSpawnAsteroidIronCrab # Frontier: use NF variant
     - settings:
         spawnOnPulse: true
         maxAmount: 3
@@ -647,7 +647,7 @@
       - CrystalOrange
       - WallSpawnAsteroid
       - WallSpawnAsteroid
-      - WallSpawnAsteroidIronCrab
+      - NFWallSpawnAsteroidIronCrab # Frontier: use NF variant
     - settings:
         spawnOnSuperCritical: true
         minAmount: 6
