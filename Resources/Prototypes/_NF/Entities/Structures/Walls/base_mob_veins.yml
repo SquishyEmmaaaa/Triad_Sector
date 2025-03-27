@@ -1,0 +1,153 @@
+# region Crabs/Golems
+- type: entity
+  abstract: true
+  id: BaseBananiumCrabVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreBananiumCrab
+
+- type: entity
+  abstract: true
+  id: BaseBananiumGolemVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreBananiumGolem
+
+- type: entity
+  abstract: true
+  id: BaseCoalCrabVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreCoalCrab
+
+- type: entity
+  abstract: true
+  id: BaseCoalGolemVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreCoalGolem
+
+- type: entity
+  abstract: true
+  id: BaseGoldCrabVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreGoldCrab
+
+- type: entity
+  abstract: true
+  id: BaseGoldGolemVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreGoldGolem
+
+- type: entity
+  abstract: true
+  id: BaseIronCrabVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreIronCrab
+
+- type: entity
+  abstract: true
+  id: BaseIronGolemVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreIronGolem
+
+- type: entity
+  abstract: true
+  id: BasePlasmaCrabVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOrePlasmaCrab
+
+- type: entity
+  abstract: true
+  id: BasePlasmaGolemVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOrePlasmaGolem
+
+- type: entity
+  abstract: true
+  id: BaseQuartzCrabVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreQuartzCrab
+
+- type: entity
+  abstract: true
+  id: BaseQuartzGolemVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreQuartzGolem
+
+- type: entity
+  abstract: true
+  id: BaseSaltCrabVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreSaltCrab
+
+- type: entity
+  abstract: true
+  id: BaseSaltGolemVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreSaltGolem
+
+- type: entity
+  abstract: true
+  id: BaseSilverCrabVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreSilverCrab
+
+- type: entity
+  abstract: true
+  id: BaseSilverGolemVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreSilverGolem
+
+- type: entity
+  abstract: true
+  id: BaseUraniumCrabVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreUraniumCrab
+
+- type: entity
+  abstract: true
+  id: BaseUraniumGolemVein
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreUraniumGolem
+
+# region Other
+- type: entity
+  id: BaseScrapBotVein
+  abstract: true
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: NFOreScrapBot

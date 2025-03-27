@@ -755,8 +755,8 @@
       currentOre: OreBananiumCrabNF
 
 - type: entity
-  id: AsteroidRockBananiumCrabNF
-  parent: AsteroidRockBananium
+  id: NFAsteroidRockBananiumCrab
+  parent: [BaseBananiumCrabVein, AsteroidRockBananium]
   suffix: Bananium Crab
   components:
     - type: OreVein
@@ -820,8 +820,8 @@
       currentOre: OreBananiumGolem
 
 - type: entity
-  id: AsteroidRockBananiumGolem
-  parent: AsteroidRockBananium
+  id: NFAsteroidRockBananiumGolem
+  parent: [BaseBananiumGolemVein, AsteroidRockBananium]
   suffix: Bananium Golem
   components:
     - type: OreVein
@@ -950,8 +950,8 @@
       currentOre: OreCoalGolem
 
 - type: entity
-  id: AsteroidRockCoalGolem
-  parent: AsteroidRockCoal
+  id: NFAsteroidRockCoalGolem
+  parent: [BaseCoalGolemVein, AsteroidRockCoal]
   suffix: Coal Golem
   components:
     - type: OreVein
@@ -1080,8 +1080,8 @@
       currentOre: OreGoldGolem
 
 - type: entity
-  id: AsteroidRockGoldGolem
-  parent: AsteroidRockGold
+  id: NFAsteroidRockGoldGolem
+  parent: [BaseGoldGolemVein, AsteroidRockGold]
   suffix: Gold Golem
   components:
     - type: OreVein
@@ -1127,8 +1127,8 @@
 
 # region Iron Crabs
 - type: entity
-  id: WallRockAndesiteIronCrabNF
-  parent: WallRockAndesiteTin
+  id: NFAsteroidRockIronCrab
+  parent: [BaseIronCrabVein, AsteroidRockTinCrab]
   suffix: Iron Crab
   components:
     - type: OreVein
@@ -1201,8 +1201,8 @@
       currentOre: OreIronGolem
 
 - type: entity
-  id: AsteroidRockIronGolem
-  parent: AsteroidRockTin
+  id: NFAsteroidRockIronGolem
+  parent: [BaseIronGolemVein, AsteroidRockTin]
   suffix: Iron Golem
   components:
     - type: OreVein
@@ -1266,8 +1266,8 @@
       currentOre: OrePlasmaCrabNF
 
 - type: entity
-  id: AsteroidRockPlasmaCrabNF
-  parent: AsteroidRockPlasma
+  id: NFAsteroidRockPlasmaCrab
+  parent: [BasePlasmaCrabVein, AsteroidRockPlasma]
   suffix: Plasma Crab
   components:
     - type: OreVein
@@ -1331,8 +1331,8 @@
       currentOre: OrePlasmaGolem
 
 - type: entity
-  id: AsteroidRockPlasmaGolem
-  parent: AsteroidRockPlasma
+  id: NFAsteroidRockPlasmaGolem
+  parent: [BasePlasmaGolemVein, AsteroidRockPlasma]
   suffix: Plasma Golem
   components:
     - type: OreVein
@@ -1452,8 +1452,8 @@
       currentOre: OreQuartzGolem
 
 - type: entity
-  id: AsteroidRockQuartzGolem
-  parent: AsteroidRockQuartz
+  id: NFAsteroidRockQuartzGolem
+  parent: [BaseQuartzGolemVein, AsteroidRockQuartz]
   suffix: Quartz Golem
   components:
     - type: OreVein
@@ -1517,8 +1517,8 @@
       currentOre: OreSaltCrabNF
 
 - type: entity
-  id: AsteroidRockSaltCrabNF
-  parent: AsteroidRockSalt
+  id: NFAsteroidRockSaltCrab
+  parent: [BaseSaltCrabVein, AsteroidRockSalt]
   suffix: Salt Crab
   components:
     - type: OreVein
@@ -1582,8 +1582,8 @@
       currentOre: OreSaltGolem
 
 - type: entity
-  id: AsteroidRockSaltGolem
-  parent: AsteroidRockSalt
+  id: NFAsteroidRockSaltGolem
+  parent: [BaseSaltGolemVein, AsteroidRockSalt]
   suffix: Salt Golem
   components:
     - type: OreVein
@@ -1629,8 +1629,8 @@
 
 # region Silver Crabs
 - type: entity
-  id: WallRockAndesiteSilverCrabNF
-  parent: WallRockAndesiteSilver
+  id: NFAsteroidRockSilverCrab
+  parent: [BaseSilverCrabVein, NFAsteroidRockSilverCrab]
   suffix: Silver Crab
   components:
     - type: OreVein
@@ -1703,8 +1703,8 @@
       currentOre: OreSilverGolem
 
 - type: entity
-  id: AsteroidRockSilverGolem
-  parent: AsteroidRockSilver
+  id: NFAsteroidRockSilverGolem
+  parent: [BaseSilverGolemVein, AsteroidRockSilver]
   suffix: Silver Golem
   components:
     - type: OreVein
@@ -1824,8 +1824,8 @@
       currentOre: OreUraniumGolem
 
 - type: entity
-  id: AsteroidRockUraniumGolem
-  parent: AsteroidRockUranium
+  id: NFAsteroidRockUraniumGolem
+  parent: [BaseUraniumGolemVein, AsteroidRockUranium]
   suffix: Uranium Golem
   components:
     - type: OreVein

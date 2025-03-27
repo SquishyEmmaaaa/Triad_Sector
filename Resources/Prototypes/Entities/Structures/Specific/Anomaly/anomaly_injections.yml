@@ -314,7 +314,7 @@
       - WallSpawnAsteroidIron
       - WallSpawnAsteroidIronCrab
       - WallSpawnAsteroidQuartz
-      - WallSpawnAsteroidQuartzCrab
+      - NFWallSpawnAsteroidQuartzCrab # Frontier: use NF variant
     - settings:
         spawnOnPulse: true
         maxAmount: 3
@@ -341,16 +341,16 @@
       - WallSpawnAsteroidIron
       - WallSpawnAsteroidIronCrab
       - WallSpawnAsteroidQuartz
-      - WallSpawnAsteroidQuartzCrab
+      - NFWallSpawnAsteroidQuartzCrab # Frontier: use NF variant
     - settings:
         spawnOnSuperCritical: true
         minAmount: 3
         maxAmount: 5
         maxRange: 3
       spawns:
-      - MobSpawnCrabSilver
-      - MobSpawnCrabIron
-      - MobSpawnCrabQuartz
+      - NFMobSpawnCrabSilver # Frontier: use NF variant
+      - NFMobSpawnCrabIron # Frontier: use NF variant
+      - NFMobSpawnCrabQuartz # Frontier: use NF variant
 
 - type: entity
   parent: AnomalyInjectionBase

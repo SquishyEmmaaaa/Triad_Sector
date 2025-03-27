@@ -426,7 +426,7 @@
       - WallSpawnAsteroid
       - WallSpawnAsteroid
       - WallSpawnAsteroidUranium
-      - WallSpawnAsteroidUraniumCrab
+      - NFWallSpawnAsteroidUraniumCrab # Frontier: use NF variant
     - settings:
         spawnOnPulse: true
         maxAmount: 3
@@ -444,18 +444,18 @@
       - CrystalGreen
       - WallSpawnAsteroid
       - WallSpawnAsteroid
-      - WallSpawnAsteroidUraniumCrab
+      - NFWallSpawnAsteroidUraniumCrab # Frontier: use NF variant
     - settings:
         spawnOnSuperCritical: true
         minAmount: 6
         maxAmount: 10
         maxRange: 5
       spawns:
-      - MobSpawnCrabUranium
+      - NFMobSpawnCrabUranium
   # - type: RadiationSource # Frontier: cherry-pick 35330 :^)
   #   intensity: 0.2
   #   slope: 0.1
-
+  
 - type: entity
   id: AnomalyRockQuartz
   parent: AnomalyRockBase
@@ -479,7 +479,7 @@
       - WallSpawnAsteroid
       - WallSpawnAsteroid
       - WallSpawnAsteroidQuartz
-      - WallSpawnAsteroidQuartzCrab
+      - NFWallSpawnAsteroidQuartzCrab # Frontier: use NF variant
     - settings:
         spawnOnPulse: true
         maxAmount: 3
@@ -497,14 +497,14 @@
       - CrystalGrey
       - WallSpawnAsteroid
       - WallSpawnAsteroid
-      - WallSpawnAsteroidQuartzCrab
+      - NFWallSpawnAsteroidQuartzCrab # Frontier: use NF variant
     - settings:
         spawnOnSuperCritical: true
         minAmount: 6
         maxAmount: 10
         maxRange: 5
       spawns:
-      - MobSpawnCrabQuartz
+      - NFMobSpawnCrabQuartz # Frontier: use NF variant
 
 - type: entity
   id: AnomalyRockSilver
@@ -554,7 +554,7 @@
         maxAmount: 10
         maxRange: 5
       spawns:
-      - MobSpawnCrabSilver
+      - NFMobSpawnCrabSilver # Frontier: use NF variant
 
 - type: entity
   id: AnomalyRockGold
@@ -579,7 +579,7 @@
       - WallSpawnAsteroid
       - WallSpawnAsteroid
       - WallSpawnAsteroidGold
-      - WallSpawnAsteroidGoldCrab
+      - NFWallSpawnAsteroidGoldCrab # Frontier: use NF variant
     - settings:
         spawnOnPulse: true
         maxAmount: 3
@@ -597,14 +597,14 @@
       - CrystalYellow
       - WallSpawnAsteroid
       - WallSpawnAsteroid
-      - WallSpawnAsteroidGoldCrab
+      - NFWallSpawnAsteroidGoldCrab # Frontier: use NF variant
     - settings:
         spawnOnSuperCritical: true
         minAmount: 6
         maxAmount: 10
         maxRange: 5
       spawns:
-      - MobSpawnCrabGold
+      - NFMobSpawnCrabGold # Frontier: use NF variant
 
 - type: entity
   id: AnomalyRockIron
@@ -654,7 +654,7 @@
         maxAmount: 10
         maxRange: 5
       spawns:
-      - MobSpawnCrabIron
+      - NFMobSpawnCrabIron # Frontier: use NF variant
 
 - type: entity
   id: AnomalyRockCoal
@@ -679,7 +679,7 @@
       - WallSpawnAsteroid
       - WallSpawnAsteroid
       - WallSpawnAsteroidCoal
-      - WallSpawnAsteroidCoalCrab
+      - NFWallSpawnAsteroidCoalCrab # Frontier: use NF variant
     - settings:
         spawnOnPulse: true
         maxAmount: 3
@@ -697,14 +697,14 @@
       - CrystalBlack
       - WallSpawnAsteroid
       - WallSpawnAsteroid
-      - WallSpawnAsteroidCoalCrab
+      - NFWallSpawnAsteroidCoalCrab # Frontier: use NF variant
     - settings:
         spawnOnSuperCritical: true
         minAmount: 6
         maxAmount: 10
         maxRange: 5
       spawns:
-      - MobSpawnCrabCoal
+      - NFMobSpawnCrabCoal # Frontier: use NF variant
 
 - type: entity
   id: AnomalyFlora

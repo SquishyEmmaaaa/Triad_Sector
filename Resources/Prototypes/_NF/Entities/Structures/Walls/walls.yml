@@ -3184,7 +3184,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: NFOreSaltCrab
 
 - type: entity
   id: NFWallAndesiteCobblebrickSilverCrab
