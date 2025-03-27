@@ -34,7 +34,7 @@
       weight: 0.002
     - id: NFWallRockBluespace
       weight: 0.003
-    - id: RockElementalSpawner
+    - id: NFRockElementalSpawner
       weight: 0.06
 
 - type: entity
@@ -84,7 +84,7 @@
       weight: 0.001
     - id: NFWallCobblebrickBluespace
       weight: 0.0003
-    - id: CobblebrickElementalSpawner
+    - id: NFCobblebrickElementalSpawner
       weight: 0.006
 
 - type: entity
@@ -174,7 +174,7 @@
       weight: 0.002
     - id: NFWallRockSnowBluespace
       weight: 0.01
-    - id: SnowElementalSpawner
+    - id: NFSnowElementalSpawner
       weight: 0.07
     - id: WallRockSnowArtifactAnomaly # Mono
       weight: 0.006
@@ -228,7 +228,7 @@
     #   weight: 0.0002
     - id: NFWallIceBluespace
       weight: 0.001
-    - id: IceElementalSpawner
+    - id: NFIceElementalSpawner
       weight: 0.007
 
 - type: entity
@@ -318,7 +318,7 @@
       weight: 0.008
     - id: NFWallRockAndesiteBluespace
       weight: 0.002
-    - id: AndesiteElementalSpawner
+    - id: NFAndesiteElementalSpawner
       weight: 0.08
     - id: WallRockAndesiteArtifactAnomaly # Mono
       weight: 0.00075
@@ -372,7 +372,7 @@
     #   weight: 0.0012
     - id: NFWallAndesiteCobblebrickBluespace
       weight: 0.0002
-    - id: AndesiteCobblebrickElementalSpawner
+    - id: NFAndesiteNFCobblebrickElementalSpawner
       weight: 0.008
 
 - type: entity
@@ -462,7 +462,7 @@
       weight: 0.005
     - id: NFWallRockBasaltBluespace
       weight: 0.005
-    - id: BasaltElementalSpawner
+    - id: NFBasaltElementalSpawner
       weight: 0.05
     - id: WallRockBasaltArtifactAnomaly # Mono
       weight: 0.00075
@@ -516,7 +516,7 @@
     #   weight: 0.0005
     - id: NFWallBasaltCobblebrickBluespace
       weight: 0.0005
-    - id: BasaltCobblebrickElementalSpawner
+    - id: NFBasaltNFCobblebrickElementalSpawner
       weight: 0.005
 
 - type: entity
@@ -606,7 +606,7 @@
       weight: 0.002
     - id: WallRockSandBluespace
       weight: 0.002
-    - id: SandElementalSpawner
+    - id: NFSandElementalSpawner
       weight: 0.05
     - id: WallRockSandArtifactAnomaly # Mono
       weight: 0.00075
@@ -660,7 +660,7 @@
     #   weight: 0.0002
     - id: NFWallSandstoneBluespace
       weight: 0.0002
-    - id: SandstoneCobblebrickElementalSpawner
+    - id: NFSandstoneNFCobblebrickElementalSpawner
       weight: 0.008
 
 - type: entity
@@ -750,7 +750,7 @@
       weight: 0.005
     - id: NFWallRockChromiteBluespace
       weight: 0.0025
-    - id: ChromiteElementalSpawner
+    - id: NFChromiteElementalSpawner
       weight: 0.05
     - id: WallRockChromiteArtifactAnomaly # Mono
       weight: 0.00075
@@ -804,7 +804,7 @@
     #   weight: 0.0005
     - id: NFWallChromiteCobblebrickBluespace
       weight: 0.00025
-    - id: ChromiteCobblebrickElementalSpawner
+    - id: NFChromiteNFCobblebrickElementalSpawner
       weight: 0.005
 
 - type: entity
@@ -894,7 +894,7 @@
       weight: 0.002
     - id: AsteroidRockDiamond
       weight: 0.01
-    - id: AsteroidRockElementalSpawner
+    - id: NFAsteroidRockElementalSpawner
       weight: 0.08
     - id: AsteroidRockArtifactAnomaly # Mono
       weight: 0.00035
@@ -948,7 +948,7 @@
       weight: 0.0002
     # - id: NFWallNecropolisDiamond
     #   weight: 0.001
-    - id: NecropolisElementalSpawner
+    - id: NFNecropolisElementalSpawner
       weight: 0.008
 
 - type: entity
@@ -1038,6 +1038,8 @@
       weight: 0.002
     - id: NFWallRockScrapPileBluespace
       weight: 0.003
+    - id: NFAsteroidScrapBotWallSpawner
+      weight: 0.04
 
 - type: entity
   id: NFScrapMineralSoft
