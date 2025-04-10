@@ -1597,6 +1597,41 @@
       right:
       - state: dragon-cooked-inhand-right
 
+- type: entity
+  name: dragon steak
+  parent: FoodMeatBase
+  id: FoodMeatDragonCooked
+  description: Pouring ketchup on this is considered a capital crime on most stations.
+  components:
+  - type: Tag
+    tags:
+    - Cooked
+    - Meat
+    - Steak
+  - type: Sprite
+    layers:
+    - state: dragon-cooked
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Ichor
+          Quantity: 6
+        - ReagentId: Nutriment
+          Quantity: 6
+        - ReagentId: Protein
+          Quantity: 6
+  - type: SliceableFood
+    count: 3
+    slice: FoodMeatDragonCutletCooked
+  - type: Construction
+    graph: DragonSteak
+    node: dragon steak
+  - type: FoodSequenceElement
+    entries:
+      Burger: DragonSteak
+      Taco: DragonSteak
+
 # Cutlets
 
 # Raw
