@@ -2799,3 +2799,12 @@
     FoodCakePlain: 1
     CottonBol: 2
   recipeType: Assembler # Frontier
+  id: RecipeGrilledCheeseSandwichCotton
+  name: cotton grilled cheese sandwich recipe
+  result: FoodBakedGrilledCheeseSandwichCotton
+  time: 10
+  solids:
+    FoodBreadCottonSlice: 2
+    FoodCheeseSlice: 1
+    FoodButterSlice: 1
+  recipeType: Oven # Frontier
