@@ -2598,6 +2598,17 @@
   - Oven # Frontier
 
 - type: microwaveMealRecipe
+  id: RecipeTacoDragon
+  name: draco recipe
+  result: FoodTacoDragon
+  time: 10
+  group: Savory
+  solids:
+    FoodTacoShell: 1
+    FoodMeatDragonCutlet: 2
+    FoodChiliPepper: 1
+  recipeType: Oven
+
   id: RecipeCroissant
   name: croissant recipe
   result: FoodBakedCroissant
