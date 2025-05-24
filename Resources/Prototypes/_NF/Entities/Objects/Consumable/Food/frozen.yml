@@ -1,3 +1,29 @@
+- type: entity
+  name: licorice creamsicle
+  parent: FoodFrozenBase
+  id: FoodFrozenPopsicleLicorice
+  description: Vanilla ice cream on a stick covered in a chewy licorice shell.
+  components:
+  - type: Sprite
+    layers:
+    - state: stick
+    - state: nogga # TODO: rename this or migrate & rename if deleted
+  - type: Food
+    trash:
+    - FoodFrozenPopsicleTrash
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+  - type: FlavorProfile
+    flavors:
+    - sweet
+    - icecream
+    - licorice
+
 # Mochi
 
 - type: entity
@@ -203,4 +229,3 @@
     - rice
     - icecream
     - antiseptic
-

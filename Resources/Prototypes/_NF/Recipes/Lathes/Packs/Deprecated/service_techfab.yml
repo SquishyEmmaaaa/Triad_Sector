@@ -113,6 +113,9 @@
     - FoodCondimentSqueezeBottleClear
     - BucketPaper # Mono
     - PaperCup # Mono
+    - DrinkDisposableCup #imp
+    - FoodFrozenPopsicleTrash
+    - DrinkWaterCup
   ## EVA
     - ClothingOuterEVASuitHydro
     - ClothingOuterEVASuitJanitor

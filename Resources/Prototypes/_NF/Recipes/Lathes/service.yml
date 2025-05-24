@@ -148,3 +148,47 @@
   completetime: 2
   materials:
     Wood: 300
+
+- type: latheRecipe
+  id: FoodFrozenPopsicleTrash
+  result: FoodFrozenPopsicleTrash # I know, it has 'trash' in the name, but it's used in cooking!
+  completetime: 0.5
+  materials:
+    Wood: 25
+
+- type: latheRecipe
+  id: DrinkWaterCup
+  result: DrinkWaterCup
+  completetime: 0.5
+  materials:
+    Paper: 25
+
+# Smokes
+- type: latheRecipe
+  id: CigPackMcCargo
+  result: CigPackMcCargo
+  completetime: 2
+  applyMaterialDiscount: false
+  categories:
+  - Brand
+  - General
+  - StorageNF
+  materials:
+    Plastic: 100
+    Steel: 100
+    Paper: 100
+
+# Coffee cup
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: DrinkDisposableCup
+  result: DrinkDisposableCup
+  materials:
+    Cardboard: 25
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: DrinkDisposableMcCup
+  result: DrinkDisposableMcCup
+  materials:
+    Cardboard: 25
