@@ -845,7 +845,7 @@
   - type: FoodSequenceElement
     entries:
       Burger: MeatPatty
-      Taco: MeatPatty
+      Taco: MeatPattyTaco # Frontier: add Taco
 
 - type: entity
   name: meatball

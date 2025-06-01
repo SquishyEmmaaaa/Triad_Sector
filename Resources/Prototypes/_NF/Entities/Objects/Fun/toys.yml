@@ -552,8 +552,235 @@
     state: white
 
 - type: entity
-  name: toy RPG
-  parent: WeaponLauncherRocket
+  parent: PlushieMoth
+  id: PlushieMoth1
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff1
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth1
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth2
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff2
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth2
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth3
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff3
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth3
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth4
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff4
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth4
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth5
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff5
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth5
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth6
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff6
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth6
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth7
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff7
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth7
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth8
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff8
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth8
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth9
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff9
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth9
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth10
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff10
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth10
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth11
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff11
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth11
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth12
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff12
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth12
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth13
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff13
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth13
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth14
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    layers:
+      - state: moff14
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoth14
+
+- type: entity
+  parent: MarkerBasePlaceFree
+  id: PlushieMoffRandom
+  name: moth plushie
+  suffix: Random
+  categories:
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+      state: moff1
+  - type: RandomSpawner
+    prototypes:
+    - PlushieMoth
+    - PlushieMoth1
+    - PlushieMoth2
+    - PlushieMoth3
+    - PlushieMoth4
+    - PlushieMoth5
+    - PlushieMoth6
+    - PlushieMoth7
+    - PlushieMoth8
+    - PlushieMoth9
+    - PlushieMoth10
+    - PlushieMoth11
+    - PlushieMoth12
+    - PlushieMoth13
+    - PlushieMoth14
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoffsician
+  name: moth musician plushie
+  description: A plushie depicting an adorable mothperson with a tiny synthesizer and tiny glasses.
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    state: moffsician
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoffsician
+
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoffbar
+  name: moth bartender plushie
+  description: A plushie depicting an adorable mothperson with a tiny tophat and tiny kevlar vest.
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
+    state: moffbar
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Moth/laugh_moth.ogg
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PlushieMoffbar
+
+- type: entity
+  name: toy rocket launcher
+  parent: [BaseClearContraband, BasePlushie, NFWeaponLauncherRocket]
   id: WeaponLauncherRocketToy
   suffix: Toy
   description: A plush toy, this launches foam "grenades". There are stitches on the side that spell out "SAM".
@@ -587,12 +814,13 @@
   id: BulletFoamRPG
   description: Looks like the REAL THING... if you squint. I hope your target's wearing face protection.
   name: foam RPG rocket
-  parent: BaseItem
+  parent: BasePlushie
   components:
     - type: Tag
       tags:
         - NFFoamRPG
         - Trash
+        - ClothMade
     - type: Ammo
     - type: Sprite
       sprite: _NF/Objects/Fun/emotional_support_rocket.rsi

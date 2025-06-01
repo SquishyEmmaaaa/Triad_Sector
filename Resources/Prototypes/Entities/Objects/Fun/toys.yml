@@ -53,6 +53,7 @@
         reagents:
         - ReagentId: Fiber
           Quantity: 10
+  - type: MothFood
   - type: ContainerContainer
     containers:
       stash: !type:ContainerSlot {}
