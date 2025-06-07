@@ -66,7 +66,54 @@
     Biomass: 5 # Mono
 
 - type: latheRecipe
-  id: BioGenChickenCube
+  id: NFBioGenFoodMeatWholeChicken
+  result: FoodMeatWholeChicken
+  parent: BioGenFoodRecipe
+  applyMaterialDiscount: false
+  completetime: 2 # Triad
+  materials:
+    Biomass: 10 # Triad
+
+- type: latheRecipe
+  id: NFBioGenFoodMeatWholePenguin
+  result: FoodMeatWholePenguin
+  parent: BioGenFoodRecipe
+  applyMaterialDiscount: false
+  completetime: 2 # Triad
+  materials:
+    Biomass: 10 # Triad
+    
+- type: latheRecipe
+  id: NFBioGenFoodMeatWholeDuck
+  result: FoodMeatWholeDuck
+  parent: BioGenFoodRecipe
+  applyMaterialDiscount: false
+  completetime: 2 # Triad
+  materials:
+    Biomass: 10 # Triad
+
+- type: latheRecipe
+  id: NFBioGenFoodMeatCrab
+  result: FoodMeatCrab
+  parent: BioGenFoodRecipe
+  applyMaterialDiscount: false
+  completetime: 5
+  materials:
+    Biomass: 25 #Crab is a more specific recipe, also crabs are smaller so I pressume the cut of crab meat is easier to make than a full steak
+
+- type: latheRecipe
+  id: NFBioGenFoodMeatBacon
+  result: FoodMeatBacon
+  parent: BioGenFoodRecipe
+  applyMaterialDiscount: false
+  completetime: 1 # Triad
+  materials:
+    Biomass: 5 # Triad
+
+#region Cubes
+
+- type: latheRecipe
+  id: NFBioGenChickenCube
   result: ChickenCube
   parent: BioGenFoodRecipe
   completetime: 3 # Mono

@@ -19,6 +19,11 @@
   - BioGenChocolate
   - BioGenSalt
   - NFBioGenFoodMeat
+  - NFBioGenFoodMeatWholeChicken
+  - NFBioGenFoodMeatWholePenguin
+  - NFBioGenFoodMeatWholeDuck
+  - NFBioGenFoodMeatCrab
+  - NFBioGenFoodMeatBacon
 
 - type: latheRecipePack
   id: NFBioGenMaterialsStatic

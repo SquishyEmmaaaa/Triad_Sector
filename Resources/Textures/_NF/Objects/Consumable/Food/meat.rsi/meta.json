@@ -12,6 +12,12 @@
     },
     "states": [
         {
+            "name": "bird-whole"
+        },
+        {
+            "name": "bird-whole-cooked"
+        },
+        {
             "name": "chicken-battered"
         },
         {
