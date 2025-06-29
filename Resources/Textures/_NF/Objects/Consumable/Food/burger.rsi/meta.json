@@ -12,6 +12,9 @@
       "name": "clurger"
     },
     {
+      "name": "clurger"
+    },
+    {
       "name": "plate"
     },
     {
@@ -48,6 +51,15 @@
     },
     {
       "name": "plainwhite"
+    },
+    {
+      "name": "buncotton"
+    },
+    {
+      "name": "plaincotton"
+    },
+    {
+      "name": "cheesecotton"
     }
   ]
 }
