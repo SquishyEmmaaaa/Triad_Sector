@@ -60,7 +60,53 @@
   result: MiniStationAnchorCircuitboard
   completetime: 8
 
-# Thrusters
+- type: latheRecipe
+  parent: [BaseCircuitboardRecipe, BaseEngineeringMachineRecipeCategory]
+  id: PortablePumpMachineCircuitBoard
+  result: PortablePumpMachineCircuitBoard
+  materials:
+    Steel: 100
+    Glass: 500
+
+- type: latheRecipe
+  parent: [BaseCircuitboardRecipe, BaseEngineeringMachineRecipeCategory]
+  id: GasMiningDrillMachineCircuitboard
+  result: GasMiningDrillMachineCircuitboard
+  materials:
+    Steel: 800
+    Glass: 900
+    Gold: 100
+
+- type: latheRecipe
+  parent: [BaseCircuitboardRecipe, BaseEngineeringMachineRecipeCategory]
+  id: GaslockFrameMachineCircuitboard
+  result: GaslockFrameMachineCircuitboard
+  materials:
+    Steel: 800
+    Glass: 900
+
+- type: latheRecipe
+  parent: [ BaseCircuitboardRecipe, BaseGeneralMachineRecipeCategory ]
+  id: NFHolopadShipMachineCircuitboard
+  result: NFHolopadShipMachineCircuitboard
+
+- type: latheRecipe
+  id: DeepFryerMachineCircuitboard
+  parent: [ BaseSilverCircuitboardRecipe, BaseEngineeringMachineRecipeCategory ]
+  result: DeepFryerMachineCircuitboard
+
+- type: latheRecipe
+  parent: [BaseCircuitboardRecipe, BaseServiceMachineRecipeCategory]
+  id: ImpCoffeeMachineCircuitboard
+  result: ImpCoffeeMachineCircuitboard
+
+# region Consoles
+- type: latheRecipe
+  id: ResearchComputerCircuitboard
+  parent: [BaseGoldCircuitboardRecipe, BaseResearchComputerRecipeCategory]
+  result: ResearchComputerCircuitboard
+
+# region Thrusters
 - type: latheRecipe
   id: ThrusterSecurityMachineCircuitboard
   parent: BaseCircuitboardRecipe
