@@ -53,6 +53,8 @@
     DrinkAngobittersBottleFull: 3
     DrinkJaegermisterBottleFull: 5
     # End Triad
+    DrinkDisposableCup: 5 # #imp
+    EthylredoxrazineAutoInjector: 2 # Frontier so bartenders can jab someone dying of alcohol poisoning
   contrabandInventory:
     ChemistryBottleEthanol: 3
     DrinkBottleOfNothingFull: 1
@@ -64,3 +66,4 @@
     DrinkPremiumTequilaBottleFull: 1 # Frontier
     DrinkPremiumVodkaBottleFull: 1 # Frontier
     DrinkPremiumWhiskeyBottleFull: 1 # Frontier
+    JugCaramexinin: 1 # Frontier

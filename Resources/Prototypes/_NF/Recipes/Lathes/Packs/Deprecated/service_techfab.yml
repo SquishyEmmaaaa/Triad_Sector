@@ -113,6 +113,10 @@
     - FoodCondimentSqueezeBottleClear
     - BucketPaper # Mono
     - PaperCup # Mono
+    - DrinkDisposableCup #imp
+    - FoodFrozenPopsicleTrash
+    - DrinkWaterCup
+    - DrinkDisposableCup #imp
   ## EVA
     - ClothingOuterEVASuitHydro
     - ClothingOuterEVASuitJanitor
@@ -162,6 +166,12 @@
       - PlantAnalyzer
       - JanicartFlatpack
       # - FireExtinguisherBluespace # DeltaV
+      - MysteryFigureBox
+      - SpaceBladeMc
+      - NFHappyHonkMcCargoEmpty
+      - ClothingHeadHatMcCrown
+      - CigPackMcCargo
+      - DrinkDisposableMcCup #imp
 
 - type: latheRecipePack
   id: NFServiceTechfabDeprecatedEmagStatic
