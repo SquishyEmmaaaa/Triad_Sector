@@ -2609,6 +2609,8 @@
     FoodChiliPepper: 1
   recipeType: Oven
 
+- type: microwaveMealRecipe
+
   id: RecipeCroissant
   name: croissant recipe
   result: FoodBakedCroissant
