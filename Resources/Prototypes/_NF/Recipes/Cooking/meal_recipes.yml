@@ -1056,9 +1056,8 @@
   result: FoodRiceNoodlesSheet
   time: 15
   group: Pasta
-  solids:
-    FoodRiceDough: 1
   reagents:
+    Rice: 45
     TableSalt: 10
     Cornoil: 10
   recipeType: Assembler
@@ -1088,10 +1087,10 @@
     FoodBowlBig: 1
     FoodRiceNoodles: 1
     FoodSoybeans: 1
-    FoodEgg: 1
-    FoodButterSlice: 1
   reagents:
-    Water: 20
+    Soysauce: 5
+    Water: 15
+    Egg: 6
   recipeType:
   - Oven
 
@@ -1106,7 +1105,8 @@
     FoodRiceNoodles: 1
     FoodCorn: 1
   reagents:
-    Water: 20
+    Soysauce: 5
+    Water: 15
   recipeType:
   - Oven
 
@@ -1119,12 +1119,12 @@
   solids:
     FoodBowlBig: 1
     FoodRiceNoodles: 1
-    FoodEgg: 1
     FoodCorn: 1
     FoodMeatBacon: 1
   reagents:
-    Soysauce: 10
-    Water: 10
+    Soysauce: 5
+    Water: 15
+    Egg: 6
   recipeType:
   - Oven
 
