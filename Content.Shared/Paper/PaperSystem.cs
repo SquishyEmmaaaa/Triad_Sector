@@ -12,12 +12,12 @@ using static Content.Shared.Paper.PaperComponent;
 using Content.Shared.Timing; // Frontier
 using Content.Shared.Access.Systems; // Frontier
 using Content.Shared.Verbs; // Frontier
-using Content.Shared.Ghost;
 using Content.Shared.Mobs; // Frontier
-using Content.Shared.IdentityManagement; // RMC
-using Content.Shared.IdentityManagement.Components; // RMC
-using Content.Shared.Mind.Components; // RMC
-using Content.Shared.Roles; // RMC
+using Content.Shared.Ghost; // Frontier
+using Content.Shared.IdentityManagement; // RMC14
+using Content.Shared.IdentityManagement.Components; // RMC14
+using Content.Shared.Mind.Components; // RMC14
+using Content.Shared.Roles; // RMC14
 
 namespace Content.Shared.Paper;
 
@@ -36,7 +36,7 @@ public sealed class PaperSystem : EntitySystem
 
     private const int ReapplyLimit = 10; // Frontier: limits on reapplied stamps
     private const int StampLimit = 100; // Frontier: limits on total stamps on a page (should be able to get a signature from everybody on the server on a page)
-    [Dependency] private readonly SharedIdentitySystem _identitySystem = default!; // RMC
+    [Dependency] private readonly SharedIdentitySystem _identitySystem = default!; // RMC14
 
     public override void Initialize()
     {
@@ -50,7 +50,7 @@ public sealed class PaperSystem : EntitySystem
         SubscribeLocalEvent<PaperComponent, PaperInputTextMessage>(OnInputTextMessage);
 
         SubscribeLocalEvent<ActivateOnPaperOpenedComponent, PaperWriteEvent>(OnPaperWrite);
-        SubscribeLocalEvent<PaperComponent, PaperSignatureRequestMessage>(OnSignatureRequest); // RMC
+        SubscribeLocalEvent<PaperComponent, PaperSignatureRequestMessage>(OnSignatureRequest); // RMC14
 
         SubscribeLocalEvent<PaperComponent, GetVerbsEvent<AlternativeVerb>>(AddSignVerb); // Frontier - Sign verb hook
     }
@@ -280,6 +280,14 @@ public sealed class PaperSystem : EntitySystem
         if (CanStamp(stampInfo, entity.Comp)) // Frontier: !entity.Comp.StampedBy.Contains(stampInfo) < CanStamp(stampInfo, entity.Comp)
         {
             entity.Comp.StampedBy.Add(stampInfo);
+            // Begin RMC
+            // Clean unfilled form and signature tags when stamping to finalize the document
+            var cleanedContent = CleanUnfilledTags(entity.Comp.Content);
+            if (cleanedContent != entity.Comp.Content)
+            {
+                SetContent(entity, cleanedContent);
+            }
+            // End RMC
             Dirty(entity);
             if (entity.Comp.StampState == null && TryComp<AppearanceComponent>(entity, out var appearance))
             {
@@ -503,6 +511,18 @@ public sealed class PaperSystem : EntitySystem
         }
 
         return text;
+    }
+    /// <summary>
+    /// Removes any unfilled [form] and [signature] tags, and converts [check] tags to ☐.
+    /// Called when the paper is stamped to finalize the document.
+    /// </summary>
+    /// <param name="text">The paper text to clean</param>
+    /// <returns>Text with unfilled tags cleaned</returns>
+    private static string CleanUnfilledTags(string text)
+    {
+        return text.Replace("[form]", string.Empty)
+                  .Replace("[signature]", string.Empty)
+                  .Replace("[check]", "☐");
     }
     // End RMC
 }
