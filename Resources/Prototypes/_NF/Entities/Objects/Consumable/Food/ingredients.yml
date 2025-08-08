@@ -411,7 +411,7 @@
           Quantity: 10
 
 - type: entity
-  parent: FoodRiceNoodlesSheet
+  parent: FoodNoodlesBase
   id: FoodRiceNoodles
   name: rice noodles
   description: A nest of delicate rice noodles. Probably better cooked.
