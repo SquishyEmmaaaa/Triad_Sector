@@ -133,7 +133,11 @@
           Quantity: 3
   - type: SliceableFood
     count: 6
-    slice: FoodMealCarpSushiSlice
+    slice: FoodMealCuredCarpSushiSlice
+  - type: Tag
+    tags:
+      - Sushi
+      - Meat
 
 - type: entity
   name: fresh fish sushi
