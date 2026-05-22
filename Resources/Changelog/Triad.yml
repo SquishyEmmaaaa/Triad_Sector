@@ -796,3 +796,10 @@ Entries:
   id: 2216
   time: '2026-05-22T11:43:08.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/110
+- author: DDrakov
+  changes:
+    - type: Tweak
+      message: Now need to right click to change custom examine
+  id: 2217
+  time: '2026-05-22T11:51:15.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/91
