@@ -789,6 +789,7 @@
     CottonBol: 4
   recipeType: Oven # Frontier
 
+
 #Italian
 - type: microwaveMealRecipe
   id: RecipeBoiledSpaghetti
@@ -948,6 +949,7 @@
   group: Pasta
   solids:
     FoodNoodles: 2
+    FoodPlateSmall: 2
   recipeType: Oven # Frontier
 
 #Soups & Stew
@@ -2623,7 +2625,6 @@
   recipeType: Oven
 
 - type: microwaveMealRecipe
-
   id: RecipeCroissant
   name: croissant recipe
   result: FoodBakedCroissant

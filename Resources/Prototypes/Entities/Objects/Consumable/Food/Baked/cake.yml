@@ -15,7 +15,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 50
+        maxVol: 55 # flavored cakes have less room for spiking
         reagents:
         - ReagentId: Nutriment
           Quantity: 20
@@ -55,7 +55,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 10
+        maxVol: 11 # Frontier: 12<11
         reagents:
         - ReagentId: Nutriment
           Quantity: 4
@@ -605,13 +605,13 @@
         maxVol: 55
         reagents:
         - ReagentId: Nutriment
-          Quantity: 20
+          Quantity: # Frontier: 20<10
         - ReagentId: Theobromine
           Quantity: 5
         - ReagentId: Vitamin
           Quantity: 5
-        - ReagentId: Flavorol
-          Quantity: 20
+        - ReagentId: Flavorol # Frontier
+          Quantity: 20 # Frontier
   - type: Item
     inhandVisuals:
       left:
@@ -633,17 +633,16 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 8
+        maxVol: 15
         reagents:
         - ReagentId: Nutriment
-          Quantity: 4
+          Quantity: 8
         - ReagentId: Theobromine
           Quantity: 1
         - ReagentId: Vitamin
-          Quantity: 1
-        - ReagentId: Flavorol
-          Quantity: 4
-          Quantity: 2
+          Quantity: 1 # Frontier 2<1
+        - ReagentId: Flavorol # Frontier
+          Quantity: 4 # Frontier
   - type: Item
     inhandVisuals:
       left:
@@ -778,14 +777,14 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 70
+        maxVol: 60
         reagents:
         - ReagentId: Nutriment
-          Quantity: 32
+          Quantity: 15 # Frontier 35<15
         - ReagentId: Vitamin
-          Quantity: 11
-        - ReagentId: Flavorol
-          Quantity: 20
+          Quantity: 10 # Frontier 15<10
+        - ReagentId: Flavorol # Frontier
+          Quantity: 20 # Frontier
   - type: Tag
     tags:
     - Cake
@@ -812,14 +811,14 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 15
+        maxVol: 12 # Frontier 15<12
         reagents:
         - ReagentId: Nutriment
-          Quantity: 6.4
+          Quantity: 3 # Frontier 7<3
         - ReagentId: Vitamin
-          Quantity: 2.2
-        - ReagentId: Flavorol
-          Quantity: 4
+          Quantity: 2 # Frontier 3<2
+        - ReagentId: Flavorol # Frontier
+          Quantity: 4 # Frontier
   - type: Tag
     tags:
     - Cake
@@ -920,14 +919,14 @@
   - type: SolutionContainerManager #TODO Sprinkles
     solutions:
       food:
-        maxVol: 65
+        maxVol: 55
         reagents:
         - ReagentId: Nutriment
-          Quantity: 20
+          Quantity: 15 # Frontier 20<15
         - ReagentId: Vitamin
           Quantity: 5
         - ReagentId: Sugar
-          Quantity: 15
+          Quantity: 5 # Frontier 15<5
         - ReagentId: Flavorol
           Quantity: 20
   - type: Item
@@ -944,17 +943,16 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 45
+        maxVol: 15
         reagents:
         - ReagentId: Nutriment
-          Quantity: 4
+          Quantity: 3 # Frontier 6<3
         - ReagentId: Vitamin
-          Quantity: 1
+          Quantity: 1 # Frontier 2<1
         - ReagentId: Sugar
-          Quantity: 3
-        - ReagentId: Flavorol
-          Quantity: 4
-          Quantity: 5
+          Quantity: 1 # Frontier 3<1
+        - ReagentId: Flavorol # Frontier
+          Quantity: 4 # Frontier
   - type: Item
     inhandVisuals:
       left:
@@ -978,16 +976,16 @@
   - type: SolutionContainerManager #TODO Sprinkles
     solutions:
       food:
-        maxVol: 65
+        maxVol: 55
         reagents:
         - ReagentId: Nutriment
-          Quantity: 20
+          Quantity: 15 # Frontier 30<15
         - ReagentId: Vitamin
           Quantity: 5
         - ReagentId: Sugar
-          Quantity: 15
-        - ReagentId: Flavorol
-          Quantity: 20
+          Quantity: 5 # Frontier 15<5
+        - ReagentId: Flavorol # Frontier
+          Quantity: 20 # Frontier
   - type: Item
     heldPrefix: clown
 
@@ -1002,17 +1000,16 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 45
+        maxVol: 15
         reagents:
         - ReagentId: Nutriment
-          Quantity: 4
+          Quantity: 3 # Frontier 8<3
         - ReagentId: Vitamin
           Quantity: 1
         - ReagentId: Sugar
-          Quantity: 3
-        - ReagentId: Flavorol
-          Quantity: 4
-          Quantity: 5
+          Quantity: 1 # Frontier 3<1
+        - ReagentId: Flavorol # Frontier
+          Quantity: 4 # Frontier
   - type: Item
     heldPrefix: clown-slice
 # Tastes like sweetness, cake, clown.
@@ -1030,10 +1027,10 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 45
+        maxVol: 55
         reagents:
         - ReagentId: Nutriment
-          Quantity: 20
+          Quantity: 30
         - ReagentId: Vitamin
           Quantity: 5
         - ReagentId: PolypyryliumOligomers
@@ -1052,10 +1049,10 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 10
+        maxVol: 15
         reagents:
         - ReagentId: Nutriment
-          Quantity: 4
+          Quantity: 8
         - ReagentId: Vitamin
           Quantity: 1
         - ReagentId: PolypyryliumOligomers
@@ -1169,10 +1166,14 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 48
+        maxVol: 125
         reagents:
-        - ReagentId: Flavorol
-          Quantity: 48
+        - ReagentId: Nutriment
+          Quantity: 50 # Frontier 80<50
+        - ReagentId: Sugar
+          Quantity: 10 # Frontier 30<10
+        - ReagentId: Flavorol # Frontier
+          Quantity: 50 # Frontier
   - type: Food
     transferAmount: 12
   - type: Item
@@ -1181,7 +1182,7 @@
   - type: PointLight
     color: "#FFFF00"
     radius: 2
-    energy: 1.4
+    energy: 2.5
 
 - type: entity
   name: suppermatter shard
@@ -1194,16 +1195,20 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 12
+        maxVol: 15.125 # Frontier: 25<15.125
         reagents:
-        - ReagentId: Flavorol
-          Quantity: 12
+        - ReagentId: Nutriment
+          Quantity: 6.25 # Frontier: 10<7.5
+        - ReagentId: Sugar
+          Quantity: 1.25 # Frontier: 5<1.25
+        - ReagentId: Flavorol # Frontier
+          Quantity: 6.25 # Frontier
   - type: Food
     transferAmount: 3
   - type: PointLight
     color: "#FFFF00"
     radius: 1.4
-    energy: 1.4
+    energy: 2.5
   - type: Tag
     tags:
     - Slice
@@ -1241,6 +1246,7 @@
           Quantity: 10
   - type: Item
     heldPrefix: cotton
+  - type: MothFood # Frontier
 
 - type: entity
   name: slice of cotton cake
@@ -1268,6 +1274,7 @@
           Quantity: 2
   - type: Item
     heldPrefix: cotton-slice
+  - type: MothFood # Frontier
 
 # Motivating
 
