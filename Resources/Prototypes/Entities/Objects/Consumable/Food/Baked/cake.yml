@@ -605,7 +605,7 @@
         maxVol: 55
         reagents:
         - ReagentId: Nutriment
-          Quantity: # Frontier: 20<10
+          Quantity: 10 # Frontier: 20<10
         - ReagentId: Theobromine
           Quantity: 5
         - ReagentId: Vitamin
