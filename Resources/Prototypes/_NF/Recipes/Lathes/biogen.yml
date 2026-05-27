@@ -61,36 +61,36 @@
   result: FoodMeat
   parent: BioGenFoodRecipe
   materialDiscountScale: 0
-  completetime: 1 # Mono
+  completetime: 1 # Mono 5<1
   materials:
-    Biomass: 5 # Mono
+    Biomass: 5 # Mono 35<5
 
 - type: latheRecipe
   id: NFBioGenFoodMeatWholeChicken
   result: FoodMeatWholeChicken
   parent: BioGenFoodRecipe
 #  applyMaterialDiscount: false
-  completetime: 2 # Triad
+  completetime: 2 # Triad: 15<2 - Changed values on whole birds from Frontier to match Mono scaling of FoodMeat.
   materials:
-    Biomass: 10 # Triad
+    Biomass: 10 # Triad 70<10
 
 - type: latheRecipe
   id: NFBioGenFoodMeatWholePenguin
   result: FoodMeatWholePenguin
   parent: BioGenFoodRecipe
 #  applyMaterialDiscount: false
-  completetime: 2 # Triad
+  completetime: 2 # Triad 20<2
   materials:
-    Biomass: 10 # Triad
+    Biomass: 10 # Triad 105<10
     
 - type: latheRecipe
   id: NFBioGenFoodMeatWholeDuck
   result: FoodMeatWholeDuck
   parent: BioGenFoodRecipe
 #  applyMaterialDiscount: false
-  completetime: 2 # Triad
+  completetime: 2 # Triad 15<2
   materials:
-    Biomass: 10 # Triad
+    Biomass: 10 # Triad 70<10
 
 - type: latheRecipe
   id: NFBioGenFoodMeatCrab
@@ -106,9 +106,9 @@
   result: FoodMeatBacon
   parent: BioGenFoodRecipe
 #  applyMaterialDiscount: false
-  completetime: 1 # Triad
+  completetime: 1 # Triad 5<1
   materials:
-    Biomass: 5 # Triad
+    Biomass: 5 # Triad 35<1
 
 #region Cubes
 
