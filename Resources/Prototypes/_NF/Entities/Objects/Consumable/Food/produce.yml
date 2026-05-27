@@ -131,6 +131,10 @@
     tags:
       - Fruit
       - Slice
+  - type: FoodSequenceElement
+    entries:
+      Taco: Avocado
+      Burger: Avocado
 
 - type: entity
   name: cucumber
@@ -199,6 +203,10 @@
     tags:
       - Vegetable
       - Slice
+  - type: FoodSequenceElement
+    entries:
+      Taco: Cucumber
+      Burger: Cucumber
 
 - type: entity
   name: pickle
@@ -271,6 +279,10 @@
     tags:
       - Vegetable
       - Slice
+  - type: FoodSequenceElement
+    entries:
+      Taco: Pickle
+      Burger: Pickle
 
 - type: entity
   name: honeycomb
@@ -300,6 +312,10 @@
       reagents:
       - ReagentId: Honey
         Quantity: 5
+  - type: FoodSequenceElement
+    entries:
+      Burger: Honeycomb
+      Taco: Honeycomb
 
 - type: entity
   name: sliced potato
@@ -419,3 +435,8 @@
   - type: Construction
     graph: Everyspice
     node: FoodEveryspiceRoasted
+  - type: FoodSequenceElement
+    entries:
+      Burger: Everyspice
+      Skewer: Everyspice
+      Taco: Everyspice
