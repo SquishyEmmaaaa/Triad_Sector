@@ -2733,7 +2733,8 @@
     FoodBreadPlainSlice: 2
     FoodCheeseSlice: 1
     FoodButterSlice: 1
-  recipeType: Oven # Frontier
+  recipeType:
+  - Oven # Frontier
 
 - type: microwaveMealRecipe
   id: RecipePlainGrits
@@ -2767,7 +2768,6 @@
   recipeType: # Frontier
   - Oven # Mono
   - Microwave # Frontier
-  recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
   id: RecipeBreakfastAmerican
@@ -2781,7 +2781,8 @@
     FoodMeatBacon: 2
     FoodPotato: 1
     FoodBakedPancake: 2
-  recipeType: Oven # Frontier
+  recipeType:
+  - Oven # Frontier
 
 - type: microwaveMealRecipe
   id: RecipeBreakfastEnglish
@@ -2796,7 +2797,8 @@
     FoodMeat: 1
     FoodTomato: 1
     FoodSoybeans: 2 # replace these with green beans once those become a thing
-  recipeType: Oven # Frontier
+  recipeType:
+  - Oven # Frontier
 
 - type: microwaveMealRecipe
   id: RecipeCottonCake
@@ -2810,6 +2812,8 @@
     FoodCakePlain: 1
     CottonBol: 2
   recipeType: Assembler # Frontier
+
+- type: microwaveMealRecipe
   id: RecipeGrilledCheeseSandwichCotton
   name: cotton grilled cheese sandwich recipe
   result: FoodBakedGrilledCheeseSandwichCotton
@@ -2818,4 +2822,5 @@
     FoodBreadCottonSlice: 2
     FoodCheeseSlice: 1
     FoodButterSlice: 1
-  recipeType: Oven # Frontier
+  recipeType:
+  - Oven # Frontier
