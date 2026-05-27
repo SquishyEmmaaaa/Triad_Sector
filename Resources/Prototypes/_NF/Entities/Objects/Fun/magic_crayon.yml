@@ -20,6 +20,7 @@
     flavors:
     - chewy
     - magical
+    - creative # Triad - Not used elsewhere, seems perfect for it.
   - type: SolutionContainerManager
     solutions:
       food:
