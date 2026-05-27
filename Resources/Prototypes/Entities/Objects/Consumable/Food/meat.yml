@@ -1485,37 +1485,6 @@
     heldPrefix: meatball
 
 - type: entity
-  name: cooked meat patty
-  parent: FoodMeatBase
-  id: FoodMeatPattyCooked
-  description: A cooked meat patty.
-  components:
-  - type: Tag
-    tags:
-    - Cooked
-    - Meat
-    - Steak
-  - type: Sprite
-    state: patty
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 7.5
-        - ReagentId: Protein
-          Quantity: 7.5
-  - type: Construction
-    graph: CookedPatty
-    node: cooked meat patty
-  - type: FoodSequenceElement
-    entries:
-      Burger: MeatPatty
-      Taco: MeatPatty
-  - type: Item
-    heldPrefix: meatball
-
-- type: entity
   name: boiled snail
   parent: FoodMeatBase
   id: FoodMeatSnailCooked

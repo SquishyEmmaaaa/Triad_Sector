@@ -112,7 +112,7 @@
     solutions:
       drink:
         maxVol: 10
-  - type: NFIngredient
+#  - type: NFIngredient ## What does it do? No idea besides brick the linter.
 
 # imp coffee cup
 - type: entity
