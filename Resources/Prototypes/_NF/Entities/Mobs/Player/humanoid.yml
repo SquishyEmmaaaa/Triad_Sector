@@ -54,7 +54,7 @@
     - type: MindShield
     - type: GhostRole
       name: ghost-role-information-ert-mailcarrier-name
-      description: ghost-role-ert-mailcarrier-description
+      description: ghost-role-information-ert-mailcarrier-description
       rules: ghost-role-information-nonantagonist-rules
     - type: GhostTakeoverAvailable
     - type: Loadout
