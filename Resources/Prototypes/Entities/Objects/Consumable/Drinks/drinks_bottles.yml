@@ -532,6 +532,7 @@
   - type: Tag
     tags:
     - VodkaBounty
+    - DrinkBottle
 
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
