@@ -2085,6 +2085,7 @@
   time: 5
   solids:
     FoodDonkpocketMoth: 1
+  recipeType: Microwave # Frontier
 
 - type: microwaveMealRecipe
   id: RecipeHotChili

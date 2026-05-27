@@ -288,3 +288,7 @@ reagent-desc-rubberneck = A popular drink amongst those adhering to an all synth
 
 reagent-name-zombiecocktail = Zombie
 reagent-desc-zombiecocktail = It gets in your head. Your he-eyeh-ead.
+
+# Frontier: capitalize Bacchus, no s post-apostrophe
+reagent-name-bacchus-blessing = Bacchus' blessing
+reagent-desc-bacchus-blessing = You didn't think it was possible for a liquid to be so utterly revolting. Are you sure about this...?
