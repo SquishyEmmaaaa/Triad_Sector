@@ -305,7 +305,7 @@
 - type: latheRecipe
   id: NFBioGenAvocadoSeeds
   parent: BioGenSeedsRecipe
-  result: avocado
+  result: AvocadoSeeds
   icon:
     sprite: _NF/Objects/Specific/Hydroponics/avocado.rsi
     state: seed
