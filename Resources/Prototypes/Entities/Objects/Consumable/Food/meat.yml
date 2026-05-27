@@ -1479,7 +1479,7 @@
       Taco: MeatBall
   # Frontier: Cookable meatball. Delicious.
   - type: Construction
-    graph: MeatMeatballCooked
+    graph: meatballNF
     node: meatball cooked
   - type: Item
     heldPrefix: meatball
