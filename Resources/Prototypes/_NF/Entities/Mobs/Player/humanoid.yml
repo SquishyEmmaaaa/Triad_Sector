@@ -22,7 +22,7 @@
   id: ERTMailCarrier
   parent: ERTLeader
   components:
-    - type: Mindshield
+    - type: MindShield
     - type: GhostRole
       name: ghost-role-information-ert-mailcarrier-name
       description: ghost-role-information-ert-mailcarrier-description
@@ -51,7 +51,7 @@
   id: ERTMailCarrierEVA
   parent: ERTMailCarrier
   components:
-    - type: Mindshield
+    - type: MindShield
     - type: GhostRole
       name: ghost-role-information-ert-mailcarrier-name
       description: ghost-role-ert-mailcarrier-description

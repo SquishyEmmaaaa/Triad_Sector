@@ -565,10 +565,6 @@ SellOnlyMothershipComputer: null # Mono
 GunneryServer: GunneryServerMedium # Mono
 
 # Frontier: put Frontier-related migrations in nf_migration.yml. Thank you.
-MagazineBoxAntiMaterielBig: null
-MagazineBoxCaselessRifle10x24: null
-MagazineBoxCaselessRifleBig: null
-MagazinePistolHighCapacityRubber: null
 
 # 2025-03-18 # Triad 2026-05-26
 EpinephrineChemistryBottle: ChemistryBottleEpinephrine
