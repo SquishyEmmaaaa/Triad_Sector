@@ -76,15 +76,15 @@
   tags:
   - Fruit
 
-- type: foodSequenceElement
-  id: Monkanana
-  scale: 0.8, 0.8
-  name: food-sequence-content-monkanana
-  sprites:
-  - sprite: _NF/Objects/Specific/Hydroponics/monkanana.rsi
-    state: produce
-  tags:
-  - Fruit
+#- type: foodSequenceElement
+#  id: Monkanana
+#  scale: 0.8, 0.8
+#  name: food-sequence-content-monkanana
+#  sprites:
+#  - sprite: _NF/Objects/Specific/Hydroponics/monkanana.rsi
+#    state: produce
+#  tags:
+#  - Fruit
 
 - type: foodSequenceElement
   id: MeatPattyTaco
@@ -662,15 +662,15 @@
 
 # Pomegranate
 
-- type: foodSequenceElement
-  id: Pomegranate
-  name: food-sequence-content-pomegranate
-  sprites:
-  - sprite: Floof/Objects/Specific/Hydroponics/pomegranate.rsi
-    state: produce
-  tags:
-  - Fruit
-  - Vegetable
+#- type: foodSequenceElement
+#  id: Pomegranate
+#  name: food-sequence-content-pomegranate
+#  sprites:
+#  - sprite: Floof/Objects/Specific/Hydroponics/pomegranate.rsi
+#    state: produce
+#  tags:
+#  - Fruit
+#  - Vegetable
 
 # Granatapfel
 

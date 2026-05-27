@@ -235,7 +235,7 @@
   - type: RandomSpawner
     prototypes:
     - WheatSeeds
-    - SpesosTreeSeeds
+#    - SpesosTreeSeeds
     - OatSeeds
     - BananaSeeds
     - CarrotSeeds

@@ -166,11 +166,11 @@
       - PlantAnalyzer
       - JanicartFlatpack
       # - FireExtinguisherBluespace # DeltaV
-      - MysteryFigureBox
-      - SpaceBladeMc
+#      - MysteryFigureBox
+#      - SpaceBladeMc
       - NFHappyHonkMcCargoEmpty
-      - ClothingHeadHatMcCrown
-      - CigPackMcCargo
+#      - ClothingHeadHatMcCrown
+#      - CigPackMcCargo
       - DrinkDisposableMcCup #imp
 
 - type: latheRecipePack

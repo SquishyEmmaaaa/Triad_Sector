@@ -60,6 +60,11 @@
   result: MiniStationAnchorCircuitboard
   completetime: 8
 
+- type: latheRecipe
+  parent: BaseCircuitboardRecipe
+  id: ImpCoffeeMachineCircuitboard
+  result: ImpCoffeeMachineCircuitboard
+
 # region Thrusters
 - type: latheRecipe
   id: ThrusterSecurityMachineCircuitboard
