@@ -610,8 +610,8 @@
           Quantity: 5
         - ReagentId: Vitamin
           Quantity: 5
-        - ReagentId: Flavorol # Frontier
-          Quantity: 20 # Frontier
+        - ReagentId: Flavorol
+          Quantity: 20
   - type: Item
     inhandVisuals:
       left:
