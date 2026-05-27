@@ -1945,18 +1945,6 @@
   recipeType: Assembler # Frontier
 
 - type: microwaveMealRecipe
-  id: RecipeBerryDelight
-  name: berry delight recipe
-  result: FoodCakeBerryDelight
-  time: 5
-  group: Cake
-  solids:
-    FoodCakePlain: 1
-    FoodBerries: 5
-  reagents:
-    Milk: 10
-
-- type: microwaveMealRecipe
   id: RecipeBreadDog
   name: bread dog recipe
   result: MobBreadDog
@@ -2811,19 +2799,6 @@
     FoodSoybeans: 2 # replace these with green beans once those become a thing
   recipeType:
   - Oven # Frontier
-
-- type: microwaveMealRecipe
-  id: RecipeCottonCake
-  name: cotton cake recipe
-  result: FoodCakeCotton
-  time: 5
-  group: Moth
-  reagents:
-    Fiber: 10
-  solids:
-    FoodCakePlain: 1
-    CottonBol: 2
-  recipeType: Assembler # Frontier
 
 - type: microwaveMealRecipe
   id: RecipeGrilledCheeseSandwichCotton
