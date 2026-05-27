@@ -1480,7 +1480,7 @@
   # Frontier: Cookable meatball. Delicious.
   - type: Construction
     graph: MeatMeatballCooked
-    node: cooked
+    node: meatball cooked
   - type: Item
     heldPrefix: meatball
 

@@ -4,7 +4,7 @@
   graph:
   - node: start
     edges:
-    - to: cooked
+    - to: meatball cooked
       completed:
       - !type:PlaySound
         sound: /Audio/Effects/sizzle.ogg
@@ -14,8 +14,7 @@
       steps:
       - tool: Rolling
         doAfter: 1
-  - node: cooked
+  - node: meatball cooked
     entity: FoodMeatMeatballCooked
-
   - node: meat patty
     entity: FoodMeatPatty

@@ -321,7 +321,7 @@
 - type: latheRecipe
   id: NFBioGenBeeSeeds
   parent: BioGenSeedsRecipe
-  result: bees
+  result: BeeSeeds
   icon:
     sprite: _NF/Objects/Specific/Hydroponics/bees.rsi
     state: seed
@@ -393,7 +393,7 @@
 - type: latheRecipe
   id: NFBioGenCoffeeSeeds
   parent: BioGenSeedsRecipe
-  result: coffee
+  result: CoffeeSeeds
   icon:
     sprite: _NF/Objects/Specific/Hydroponics/coffee.rsi
     state: seed
@@ -417,7 +417,7 @@
 - type: latheRecipe
   id: NFBioGenCucumberSeeds
   parent: BioGenSeedsRecipe
-  result: cucumber
+  result: CucumberSeeds
   icon:
     sprite: _NF/Objects/Specific/Hydroponics/cucumber.rsi
     state: seed
@@ -521,7 +521,7 @@
 - type: latheRecipe
   id: NFBioGenPearSeeds
   parent: BioGenSeedsRecipe
-  result: pear
+  result: PearSeeds
   icon:
     sprite: _NF/Objects/Specific/Hydroponics/pear.rsi
     state: seed
