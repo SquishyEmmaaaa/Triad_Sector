@@ -117,6 +117,7 @@
     - FoodFrozenPopsicleTrash
     - DrinkWaterCup
     - DrinkDisposableCup #imp
+    - DrinkDisposableMcCup # Triad: Moved here due to current tech setup
   ## EVA
     - ClothingOuterEVASuitHydro
     - ClothingOuterEVASuitJanitor
@@ -168,10 +169,10 @@
       # - FireExtinguisherBluespace # DeltaV
 #      - MysteryFigureBox
 #      - SpaceBladeMc
-      - NFHappyHonkMcCargoEmpty
+#      - NFHappyHonkMcCargoEmpty
 #      - ClothingHeadHatMcCrown
 #      - CigPackMcCargo
-      - DrinkDisposableMcCup #imp
+#      - DrinkDisposableMcCup #imp
 
 - type: latheRecipePack
   id: NFServiceTechfabDeprecatedEmagStatic
