@@ -532,7 +532,7 @@
   - type: Tag
     tags:
     - VodkaBounty
-    - DrinkBottle
+    - DrinkBottle # Triad: Lets it fit in the booze dispenser
 
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]

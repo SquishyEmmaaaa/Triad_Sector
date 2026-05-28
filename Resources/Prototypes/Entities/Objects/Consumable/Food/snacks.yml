@@ -462,6 +462,8 @@
   - type: FlavorProfile
     flavors:
       - nutribrick
+  - type: Sprite
+    state: nutribrick-open
   - type: Item
     size: Small
     heldPrefix: nutribrick-open
