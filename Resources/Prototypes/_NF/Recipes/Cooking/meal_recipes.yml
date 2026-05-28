@@ -497,6 +497,7 @@
   name: battered onion rings recipe
   result: FoodOnionRingsBattered
   time: 2 # ~5 seconds for three
+  group: Savory # Triad: TODO move to ingredients
   reagents:
     Flour: 1.5 # ~1/3 of a click
     Egg: 2 # 1/3 of an egg
@@ -510,6 +511,7 @@
   name: battered tofu slice recipe
   result: FoodTofuSliceBattered
   time: 2
+  group: Savory # Triad: TODO move to ingredients
   reagents:
     Flour: 1.5
     Egg: 2
@@ -1041,6 +1043,7 @@
   name: cinnamon roll
   result: FoodBakedCinnamonRoll
   time: 5
+  group: Dessert
   solids:
     FoodDoughSlice: 1
   reagents:

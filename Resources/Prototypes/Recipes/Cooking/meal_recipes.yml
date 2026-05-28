@@ -805,6 +805,7 @@
   name: world peazza recipe
   result: FoodPizzaWorldpeas
   time: 30
+  group: Pizza # Triad
   solids:
     FoodDoughFlat: 1
     FoodWorldPeas: 3
@@ -2084,6 +2085,7 @@
   id: RecipeDonkpocketMoth
   name: warm moth-pocket recipe
   result: FoodDonkpocketMothWarm
+  group: Moth # Triad
   time: 5
   solids:
     FoodDonkpocketMoth: 1
@@ -2393,6 +2395,7 @@
   name: dried tea leaves recipe
   result: LeavesTeaDried
   time: 10
+  group: Medicinal # Triad: TODO move to ingredients group
   solids:
     LeavesTea: 1
   recipeType: # Frontier
@@ -2439,6 +2442,7 @@
   id: RecipeTrashBakedBananaPeel
   name: baked banana peel recipe
   result: TrashBakedBananaPeel
+  group: Secret
   time: 5
   solids:
     TrashBananaPeel: 1
@@ -2452,6 +2456,7 @@
   name: suppermatter recipe
   result: FoodCakeSuppermatter
   time: 30
+  group: Dessert
   solids:
     FoodCakeBatter: 2
   reagents:
@@ -2491,6 +2496,7 @@
   name: cannabis butter recipe
   result: FoodCannabisButter
   time: 15
+  Group: Medicinal # Triad
   solids:
     FoodButter: 1
     LeavesCannabis: 6
@@ -2730,6 +2736,7 @@
   name: grilled cheese sandwich recipe
   result: FoodBakedGrilledCheeseSandwich
   time: 10
+  Group: Savory # Triad
   solids:
     FoodBreadPlainSlice: 2
     FoodCheeseSlice: 1
@@ -2806,6 +2813,7 @@
   name: cotton grilled cheese sandwich recipe
   result: FoodBakedGrilledCheeseSandwichCotton
   time: 10
+  group: Moth # Triad
   solids:
     FoodBreadCottonSlice: 2
     FoodCheeseSlice: 1
