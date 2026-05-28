@@ -122,7 +122,7 @@
   components:
   - type: PhysicalComposition
     materialComposition:
-      Cardboard: 25
+      Cardboard: 10 # Triad - Avoiding arbitrage
   - type: ExaminableSolution
     solution: drink
   - type: FitsInDispenser
