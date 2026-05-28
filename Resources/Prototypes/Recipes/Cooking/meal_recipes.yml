@@ -808,6 +808,7 @@
   solids:
     FoodDoughFlat: 1
     FoodWorldPeas: 3
+  recipeType: Oven
 
 #Italian
 - type: microwaveMealRecipe
@@ -2822,3 +2823,5 @@
     Fiber: 10
   solids:
     FoodCakePlain: 1
+  recipeType:
+  - Assembler # Frontier
