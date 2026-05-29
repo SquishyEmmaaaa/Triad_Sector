@@ -1007,3 +1007,10 @@ Entries:
   id: 2238
   time: '2026-05-28T10:01:42.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/136
+- author: dijonmustard01
+  changes:
+    - type: Add
+      message: Added the Portable SMES unit and its corresponding machine board.
+  id: 2239
+  time: '2026-05-29T16:50:34.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/132
