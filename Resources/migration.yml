@@ -564,8 +564,6 @@ SellOnlyMothershipComputer: null # Mono
 # 2025-06-12
 GunneryServer: GunneryServerMedium # Mono
 
-# Frontier: put Frontier-related migrations in nf_migration.yml. Thank you.
-
 # 2025-03-18 # Triad: 2026-05-29
 EpinephrineChemistryBottle: ChemistryBottleEpinephrine
 RobustHarvestChemistryBottle: ChemistryBottleRobustHarvest
@@ -585,3 +583,5 @@ PaxChemistryBottle: ChemistryBottlePax
 MuteToxinChemistryBottle: ChemistryBottleMuteToxin
 LeadChemistryBottle: ChemistryBottleLead
 ToxinChemistryBottle: ChemistryBottleToxin
+
+# Frontier: put Frontier-related migrations in nf_migration.yml. Thank you.
