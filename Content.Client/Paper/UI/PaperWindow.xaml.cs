@@ -66,7 +66,7 @@ namespace Content.Client.Paper.UI
         private int _MaxInputLength = -1;
         public int MaxInputLength
         {
-            get => _MaxInputLength; // RMC14
+            get => _MaxInputLength;
             set
             {
                 _MaxInputLength = value;
@@ -163,7 +163,6 @@ namespace Content.Client.Paper.UI
 
 
             PaperContent.ModulateSelfOverride = visuals.ContentImageModulate;
-            //WrittenTextLabel.ModulateSelfOverride = visuals.FontAccentColor; // TODO RMC - Check this doesnt break things
             FillStatus.ModulateSelfOverride = visuals.FontAccentColor;
 
             var contentImage = visuals.ContentImagePath != null ? _resCache.GetResource<TextureResource>(visuals.ContentImagePath) : null;
@@ -382,10 +381,8 @@ namespace Content.Client.Paper.UI
                 mode |= DragMode.Left;
             else if (relativeMousePos.X > Size.X - DRAG_MARGIN_SIZE)
                 mode |= DragMode.Right;
-
             if ((mode & _allowedResizeModes) == DragMode.None)
                 return DragMode.Move;
-
             return mode & _allowedResizeModes;
         }
 
