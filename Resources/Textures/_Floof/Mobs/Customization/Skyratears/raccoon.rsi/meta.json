@@ -8,19 +8,19 @@
     },
     "states": [
         {
-            "name": "m_ears_possum_ADJ_primary",
+            "name": "m_ears_raccoon_ADJ_primary",
             "directions": 4
         },
         {
-            "name": "m_ears_possum_ADJ_secondary",
+            "name": "m_ears_raccoon_ADJ_secondary",
             "directions": 4
         },
         {
-            "name": "m_ears_possum_FRONT_primary",
+            "name": "m_ears_raccoon_FRONT_primary",
             "directions": 4
         },
         {
-            "name": "m_ears_possum_FRONT_secondary",
+            "name": "m_ears_raccoon_FRONT_secondary",
             "directions": 4
         }
     ]
