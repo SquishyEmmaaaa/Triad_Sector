@@ -104,6 +104,7 @@
       - map: [ "outerClothing" ] # mono - i hate you upstream
       - map: [ "eyes" ]
       - map: [ "belt" ]
+      - map: [ "enum.HumanoidVisualLayers.TailOversuit" ] # DEN
       - map: [ "enum.HumanoidVisualLayers.Tail" ] # Mentioned in moth code: This needs renaming lol.
       - map: [ "back" ]
       - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
