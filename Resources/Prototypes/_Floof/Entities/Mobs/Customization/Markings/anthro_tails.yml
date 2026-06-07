@@ -17,7 +17,7 @@
   colorLinks:
     m_tail_raccoon_BEHIND_primary: m_tail_raccoon_FRONT_primary
     m_tail_raccoon_BEHIND_secondary: m_tail_raccoon_FRONT_secondary
-  #Begin Den additions - organized skyrattails textures
+    # Begin Den additions - organized skyrattails textures
   sprites:
   - sprite: _Floof/Mobs/Customization/Skyrattails/raccoon.rsi
     state: m_tail_raccoon_FRONT_primary
@@ -27,7 +27,7 @@
     state: m_tail_raccoon_BEHIND_primary
   - sprite: _Floof/Mobs/Customization/Skyrattails/raccoon.rsi
     state: m_tail_raccoon_BEHIND_secondary
-  #End Den additions
+    # End Den additions
 
 - type: marking
   id: TailSquirrel
@@ -39,10 +39,10 @@
     m_tail_squirrel_FRONT: Tail
   colorLinks:
     m_tail_squirrel_BEHIND: m_tail_squirrel_FRONT
-  #Begin Den additions - organized skyrattails textures
+    # Begin Den additions - organized skyrattails textures
   sprites:
   - sprite: _Floof/Mobs/Customization/Skyrattails/squirrel.rsi
     state: m_tail_squirrel_FRONT
   - sprite: _Floof/Mobs/Customization/Skyrattails/squirrel.rsi
     state: m_tail_squirrel_BEHIND
-  #End Den additions
+    # End Den additions
