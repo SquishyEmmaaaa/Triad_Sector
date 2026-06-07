@@ -20,13 +20,13 @@
     # Begin Den additions - organized skyrattails textures
   sprites:
   - sprite: _Floof/Mobs/Customization/Skyrattails/raccoon.rsi
-    state: m_tail_raccoon_FRONT_primary
-  - sprite: _Floof/Mobs/Customization/Skyrattails/raccoon.rsi
-    state: m_tail_raccoon_FRONT_secondary
-  - sprite: _Floof/Mobs/Customization/Skyrattails/raccoon.rsi
     state: m_tail_raccoon_BEHIND_primary
   - sprite: _Floof/Mobs/Customization/Skyrattails/raccoon.rsi
     state: m_tail_raccoon_BEHIND_secondary
+  - sprite: _Floof/Mobs/Customization/Skyrattails/raccoon.rsi
+    state: m_tail_raccoon_FRONT_primary
+  - sprite: _Floof/Mobs/Customization/Skyrattails/raccoon.rsi
+    state: m_tail_raccoon_FRONT_secondary
     # End Den additions
 
 - type: marking
@@ -42,7 +42,7 @@
     # Begin Den additions - organized skyrattails textures
   sprites:
   - sprite: _Floof/Mobs/Customization/Skyrattails/squirrel.rsi
-    state: m_tail_squirrel_FRONT
-  - sprite: _Floof/Mobs/Customization/Skyrattails/squirrel.rsi
     state: m_tail_squirrel_BEHIND
+  - sprite: _Floof/Mobs/Customization/Skyrattails/squirrel.rsi
+    state: m_tail_squirrel_FRONT
     # End Den additions
