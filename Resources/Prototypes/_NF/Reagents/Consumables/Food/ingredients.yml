@@ -40,8 +40,8 @@
     params:
       volume: 6
 
-- type: reagent # Triad TODO: Remove this reagent, and the corresponding ftl entry, once we get rid of all of it.
-  id: OilVegetable # (cont.) Keeping in files to prevent crashing on consumption.
+- type: reagent # Triad TODO: Reagents are not currently sanitized by our shipsaves, so removing this results in an "unknown reagent" which will crash someone on consumption/metabolizing. If we sanatize specific reagents on shipload, this can be removed if we add it to that.
+  id: OilVegetable
   name: reagent-name-oil-vegetable
   group: Foods
   desc: reagent-desc-oil-vegetable

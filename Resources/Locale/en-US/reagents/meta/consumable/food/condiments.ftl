@@ -43,5 +43,5 @@ reagent-desc-table-salt = Commonly known as salt, Sodium Chloride is often used 
 reagent-name-syrup = syrup
 reagent-desc-syrup = Delicious syrup made from tree sap, somehow stickier than glue.
 
-reagent-name-oil-vegetable = Vegetable Oil (Depreciated)
-reagent-desc-oil-vegetable = The reagent formerly known as Vegetable Oil, now depreciated. How do you have this?
+reagent-name-oil-vegetable = Stale Vegetable Oil
+reagent-desc-oil-vegetable = It seems this oil hasn't lasted in storage very well.
