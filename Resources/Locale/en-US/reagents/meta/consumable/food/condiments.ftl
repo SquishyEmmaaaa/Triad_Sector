@@ -42,7 +42,3 @@ reagent-desc-table-salt = Commonly known as salt, Sodium Chloride is often used 
 
 reagent-name-syrup = syrup
 reagent-desc-syrup = Delicious syrup made from tree sap, somehow stickier than glue.
-
-# Triad TODO: Depreciated reagent, corn oil is now used and renammed as Vegetable oil. We can't remove this yet because ships aren't sanitized on load.
-reagent-name-oil-vegetable = Stale Vegetable Oil
-reagent-desc-oil-vegetable = It seems this oil hasn't lasted in storage very well.
