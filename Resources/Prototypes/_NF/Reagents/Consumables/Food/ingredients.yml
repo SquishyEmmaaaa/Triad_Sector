@@ -15,6 +15,28 @@
       - !type:SatiateThirst
         factor: -0.25
 
+- type: reagent # Triad TODO: Reagents are not currently sanitized by our shipsaves, so removing this results in an "unknown reagent" which will crash someone on consumption/metabolizing. If we sanatize specific reagents on shipload, this can be removed if we add it to that.
+  id: OilVegetable
+  name: reagent-name-oil-vegetable
+  group: Foods
+  desc: reagent-desc-oil-vegetable
+  physicalDesc: reagent-physical-desc-oily
+  flavor: oily
+  flavorMinimum: 0.05
+  color: "#ffff77"
+  meltingPoint: -6.0 #Taken from OilOlive
+  boilingPoint: 299.0
+  recognizable: true
+  metabolisms:
+    Food:
+      effects:
+      - !type:SatiateHunger
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Nutriment
+          min: 0.1
+        factor: 1
+
 - type: reagent
   id: Honey
   name: reagent-name-honey
@@ -39,25 +61,3 @@
     collection: FootstepSticky
     params:
       volume: 6
-
-- type: reagent # Triad TODO: Reagents are not currently sanitized by our shipsaves, so removing this results in an "unknown reagent" which will crash someone on consumption/metabolizing. If we sanatize specific reagents on shipload, this can be removed if we add it to that.
-  id: OilVegetable
-  name: reagent-name-oil-vegetable
-  group: Foods
-  desc: reagent-desc-oil-vegetable
-  physicalDesc: reagent-physical-desc-oily
-  flavor: oily
-  flavorMinimum: 0.05
-  color: "#ffff77"
-  meltingPoint: -6.0 #Taken from OilOlive
-  boilingPoint: 299.0
-  recognizable: true
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        conditions:
-        - !type:ReagentThreshold
-          reagent: Nutriment
-          min: 0.1
-        factor: 1
