@@ -112,7 +112,6 @@
     solutions:
       drink:
         maxVol: 10
-  - type: NFIngredient
 
 # imp coffee cup
 - type: entity
