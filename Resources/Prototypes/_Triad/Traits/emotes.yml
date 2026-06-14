@@ -1,8 +1,8 @@
 # Triad New Category
 - type: trait
   id: FriendsWithHarpies
-  name: trait-vocal-harpies-partial-name
-  description: trait-vocal-harpies-partial-desc
+  name: trait-vocal-harpies-partial-replacement-name
+  description: trait-vocal-harpies-partial-replacement-desc
   category: Emotes
   cost: 0
   conditions:
@@ -17,8 +17,8 @@
 
 - type: trait
   id: RaisedByHarpies
-  name: trait-vocal-harpies-full-name
-  description: trait-vocal-harpies-full-desc
+  name: trait-vocal-harpies-total-replacement-name
+  description: trait-vocal-harpies-total-replacement-desc
   category: Emotes
   cost: 0
   conditions:
