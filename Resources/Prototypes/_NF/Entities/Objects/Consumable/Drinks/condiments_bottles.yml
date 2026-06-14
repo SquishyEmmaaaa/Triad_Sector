@@ -152,23 +152,23 @@
     currentLabel: reagent-name-mayo
 
 # imp coffee machine
-#- type: entity
-#  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
-#  id: JugCaramexinin
-#  name: caramexinin jug
-#  suffix: For Drinks, Full
-#  description: A small portion of galaxythistle-derived sweetener. 5u in a coffee cup will prevent poisoning in animals!
-#  components:
-#  - type: SolutionContainerManager
-#    solutions:
-#      drink:
-#        maxVol: 150
-#        reagents:
-#        - ReagentId: Caramexinin
-#          Quantity: 80
-#  - type: Drink
-#  - type: Label
-#    currentLabel: reagent-name-caramexinin
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: JugCaramexinin
+  name: caramexinin jug
+  suffix: For Drinks, Full
+  description: A small portion of galaxythistle-derived sweetener. 5u in a coffee cup will prevent poisoning in animals!
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 150
+        reagents:
+        - ReagentId: Caramexinin
+          Quantity: 80
+  - type: Drink
+  - type: Label
+    currentLabel: reagent-name-caramexinin
 
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
@@ -188,20 +188,20 @@
   - type: Label
     currentLabel: reagent-name-cocoapowder
 
-#- type: entity
-#  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
-#  id: JugWater
-#  name: water powder jug
-#  suffix: For Drinks, Full
-#  description: A jug of water. Also probably microplastics.
-#  components:
-#  - type: SolutionContainerManager
-#    solutions:
-#      drink:
-#        maxVol: 300
-#        reagents:
-#        - ReagentId: Water
-#          Quantity: 300
-#  - type: Drink
-#  - type: Label
-#    currentLabel: reagent-name-water
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: JugWater
+  name: water powder jug
+  suffix: For Drinks, Full
+  description: A jug of water. Also probably microplastics.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 300
+        reagents:
+        - ReagentId: Water
+          Quantity: 300
+  - type: Drink
+  - type: Label
+    currentLabel: reagent-name-water
