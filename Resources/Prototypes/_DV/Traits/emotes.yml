@@ -1,0 +1,39 @@
+# Triad New Category
+- type: trait
+  id: FriendsWithHarpies
+  name: trait-vocal-harpies-partial-name
+  description: trait-vocal-harpies-partial-desc
+  category: Emotes
+  cost: 0
+  conditions:
+  - !type:IsSpeciesCondition
+    species: Harpy
+    invert: true
+  effects:
+  - !type:OverrideCompsEffect
+    components:
+    - type: Speech
+      allowedEmotes: ['Meow', 'Hiss', 'Mew', 'Purr', 'Growl', 'Bark', 'Snarl', 'Whine', 'Howl', 'Awoo', 'Honk', 'HarpyRing', 'HarpyPew', 'HarpyBang', 'Beep', 'HarpyRev', 'HarpyCaw', 'Squish', 'Chitter', 'Squeak', 'Click', 'Belch', 'Squish', Bagawk] # Frontier: add Belch, Squish
+
+- type: trait
+  id: RaisedByHarpies
+  name: trait-vocal-harpies-full-name
+  description: trait-vocal-harpies-full-desc
+  category: Emotes
+  cost: 0
+  conditions:
+  - !type:IsSpeciesCondition
+    species: Harpy
+    invert: true
+  effects:
+  - !type:OverrideCompsEffect
+    components:
+    - type: Speech
+      speechSounds: Harpy
+      speechVerb: Harpy
+      allowedEmotes: ['Meow', 'Hiss', 'Mew', 'Purr', 'Growl', 'Bark', 'Snarl', 'Whine', 'Howl', 'Awoo', 'Honk', 'HarpyRing', 'HarpyPew', 'HarpyBang', 'Beep', 'HarpyRev', 'HarpyCaw', 'Squish', 'Chitter', 'Squeak', 'Click', 'Belch', 'Squish', Bagawk] # Frontier: add Belch, Squish
+    - type: Vocal
+      sounds:
+        Male: SoundsHarpy
+        Female: SoundsHarpy
+        Unsexed: SoundsHarpy
