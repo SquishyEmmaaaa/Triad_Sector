@@ -121,7 +121,7 @@
   components:
   - type: PhysicalComposition
     materialComposition:
-      Cardboard: 25
+      Cardboard: 10
   - type: ExaminableSolution
     solution: drink
   - type: FitsInDispenser
