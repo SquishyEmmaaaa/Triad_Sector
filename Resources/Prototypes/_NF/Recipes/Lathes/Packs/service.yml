@@ -39,7 +39,7 @@
   recipes:
   - KitchenAssemblerMachineCircuitboard # Frontier
   - ElectricRangeMachineCircuitboard # Frontier
-  - ImpCoffeeMachineCircuitboard # Frontier
+  # - ImpCoffeeMachineCircuitboard # Frontier # Triad: If its already unlocked in circuit printer no need for dynamic.
   - ReagentGrinderMachineCircuitboard
   - MicrowaveMachineCircuitboard
   - ElectricGrillMachineCircuitboard
