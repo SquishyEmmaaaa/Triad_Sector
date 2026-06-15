@@ -113,10 +113,6 @@
     - FoodCondimentSqueezeBottleClear
     - BucketPaper # Mono
     - PaperCup # Mono
-#    - DrinkDisposableCup #imp # Triad TODO Uncomment after ice cream
-#    - FoodFrozenPopsicleTrash # Triad TODO Uncomment after ice cream
-#    - DrinkWaterCup # Triad TODO Uncomment after ice cream
-#    - DrinkDisposableMcCup # Triad: Moved here due to current tech setup # Triad TODO Uncomment after ice cream
   ## EVA
     - ClothingOuterEVASuitHydro
     - ClothingOuterEVASuitJanitor
@@ -166,12 +162,6 @@
       - PlantAnalyzer
       - JanicartFlatpack
       # - FireExtinguisherBluespace # DeltaV
-#      - MysteryFigureBox
-#      - SpaceBladeMc
-#      - NFHappyHonkMcCargoEmpty
-#      - ClothingHeadHatMcCrown
-#      - CigPackMcCargo
-#      - DrinkDisposableMcCup #imp
 
 - type: latheRecipePack
   id: NFServiceTechfabDeprecatedEmagStatic
