@@ -424,6 +424,22 @@
       collection: MaleGasp
     DefaultDeathgasp:
       collection: MaleDeathGasp
+    # Begin HardLight
+    Snarl:
+      collection: VulpkaninSnarls
+    Bark:
+      collection: VulpkaninBarks
+    Whine:
+      collection: VulpkaninWhines
+    Purr:
+      collection: FelinidPurrs
+    Howl:
+      collection: VulpkaninHowls
+    Yip:
+      path: /Audio/_Starlight/Effects/yip.ogg
+    Pout:
+      collection: Whine
+    # End Hardlight
 
 - type: emoteSounds
   id: FemaleKitsune
@@ -460,3 +476,19 @@
       collection: FemaleGasp
     DefaultDeathgasp:
       collection: FemaleDeathGasp
+    # Begin Hardlight
+    Snarl:
+      collection: VulpkaninSnarls
+    Bark:
+      collection: VulpkaninBarks
+    Whine:
+      collection: VulpkaninWhines
+    Howl:
+      collection: VulpkaninHowls
+    Purr:
+      collection: FelinidPurrs
+    Yip:
+      path: /Audio/_Starlight/Effects/yip.ogg
+    Pout:
+      collection: Whine
+    # End Hardlight
