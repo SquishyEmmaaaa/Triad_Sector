@@ -129,7 +129,8 @@
     components:
       - type: Speech
         speechSounds: Alto
-        allowedEmotes: ['Growl', 'Squeak']
+        speechVerb: Kitsune
+        allowedEmotes: [ 'Squeak', 'Growl', 'Snarl', 'Bark', 'Whine', 'Howl', 'Purr', 'Yip', 'Pout' ]
       - type: Vocal
         sounds:
           Male: MaleKitsune
