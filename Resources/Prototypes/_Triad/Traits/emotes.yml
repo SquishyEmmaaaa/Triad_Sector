@@ -51,6 +51,12 @@
   - !type:IsSpeciesCondition
     species: Harpy
     invert: true
+  - !type:AnyOfCondition
+    conditions:
+    - !type:IsSpeciesCondition
+      species: Avali
+    - !type:IsSpeciesCondition
+      species: Resomi
   effects:
   - !type:OverrideCompsEffect
     components:
@@ -111,27 +117,27 @@
   effects:
   - !type:OverrideCompsEffect
     components:
-      - type: Speech
-        speechSounds: Alto
-        speechVerb: Kitsune
-        allowedEmotes: [ 'Squeak', 'Growl', 'Snarl', 'Bark', 'Whine', 'Howl', 'Purr', 'Yip', 'Pout' ]
-      - type: Vocal
-        sounds:
-          Male: MaleKitsune
-          Female: FemaleKitsune
-          Unsexed: MaleKitsune
-      - type: TypingIndicator
-        proto: kitsune
-      - type: InteractionPopup
-        successChance: 0.5
-        interactSuccessString: petting-success-soft-floofy-kitsune
-        interactFailureString: petting-failure-generic
-        interactSuccessSpawn: EffectHearts
-        interactSuccessSound:
-          path: /Audio/Animals/fox_squeak.ogg
-      - type: PseudoItem
-        storedOffset: "0,17"
-        shape:
-          - 0,0,1,4
-          - 0,2,3,4
-          - 4,0,5,4
+    - type: Speech
+      speechSounds: Alto
+      speechVerb: Kitsune
+      allowedEmotes: [ 'Squeak', 'Growl', 'Snarl', 'Bark', 'Whine', 'Howl', 'Purr', 'Yip', 'Pout' ]
+    - type: Vocal
+      sounds:
+        Male: MaleKitsune
+        Female: FemaleKitsune
+        Unsexed: MaleKitsune
+    # - type: TypingIndicator # Triad - No idea why typing indicator isnt overriding. Remove and override doesn't fix either. Deosn't work with trying to give felinid either.
+    #   proto: kitsune
+    # - type: InteractionPopup # Triad - Was giving both hug and hearts. Need to fix before implemented.
+    #   successChance: 0.5
+    #   interactSuccessString: petting-success-soft-floofy-kitsune
+    #   interactFailureString: petting-failure-generic
+    #   interactSuccessSpawn: EffectHearts
+    #   interactSuccessSound:
+    #     path: /Audio/Animals/fox_squeak.ogg
+    - type: PseudoItem
+      storedOffset: "0,17"
+      shape:
+        - 0,0,1,4
+        - 0,2,3,4
+        - 4,0,5,4
