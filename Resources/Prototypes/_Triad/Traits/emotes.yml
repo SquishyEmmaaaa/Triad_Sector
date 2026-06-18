@@ -64,27 +64,27 @@
         Female: SoundsHarpy
         Unsexed: SoundsHarpy
 
-- type: trait
-  id: RaisedByChitinid
-  name: trait-vocal-chitinid-total-replacement-name
-  description: trait-vocal-chitinid-total-replacement-desc
-  category: Emotes
-  cost: 0
-  conditions:
-  - !type:IsSpeciesCondition
-    species: Chitinid
-    invert: true
-  effects:
-  - !type:OverrideCompsEffect
-    components:
-    - type: Speech
-      speechVerb: Chitinid
-      allowedEmotes: ['Chitter', 'Click', 'Hiss']
-    - type: Vocal
-      sounds:
-        Male: UnisexChitinid
-        Female: UnisexChitinid
-        Unsexed: UnisexChitinid
+# - type: trait
+#   id: RaisedByChitinid
+#   name: trait-vocal-chitinid-total-replacement-name
+#   description: trait-vocal-chitinid-total-replacement-desc
+#   category: Emotes
+#   cost: 0
+#   conditions:
+#   - !type:IsSpeciesCondition
+#     species: Chitinid
+#     invert: true
+#   effects:
+#   - !type:OverrideCompsEffect
+#     components:
+#     - type: Speech
+#       speechVerb: Chitinid
+#       allowedEmotes: ['Chitter', 'Click', 'Hiss']
+#     - type: Vocal
+#       sounds:
+#         Male: UnisexChitinid
+#         Female: UnisexChitinid
+#         Unsexed: UnisexChitinid
 
 - type: trait
   id: RaisedByVulpkanin
@@ -96,6 +96,12 @@
   - !type:IsSpeciesCondition
     species: Vulpkanin
     invert: true
+  - !type:AnyOfCondition
+    conditions:
+    - !type:IsSpeciesCondition
+      species: Human
+    - !type:IsSpeciesCondition
+      species: Felinid
   effects:
   - !type:OverrideCompsEffect
     components:
