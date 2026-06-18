@@ -436,7 +436,7 @@
     Howl:
       collection: VulpkaninHowls
     Yip:
-      path: /Audio/_Starlight/Effects/yip.ogg
+      path: /Audio/Animals/fox_squeak.ogg
     Pout:
       collection: Whine
     # End Hardlight
@@ -488,7 +488,7 @@
     Purr:
       collection: FelinidPurrs
     Yip:
-      path: /Audio/_Starlight/Effects/yip.ogg
+      path: /Audio/Animals/fox_squeak.ogg
     Pout:
       collection: Whine
     # End Hardlight
