@@ -97,7 +97,7 @@
     species: Vulpkanin
     invert: true
   effects:
-  - !type:ReplaceCompsEffect
+  - !type:OverrideCompsEffect
     components:
     - type: Speech
       speechSounds: Vulpkanin
@@ -108,3 +108,45 @@
         Male: MaleVulpkanin
         Female: FemaleVulpkanin
         Unsexed: MaleVulpkanin
+
+- type: trait
+  id: RaisedByKitsune
+  name: trait-vocal-kitsune-total-replacement-name
+  description: trait-vocal-kitsune-total-replacement-desc
+  category: Emotes
+  cost: 0
+  conditions:
+  - !type:AnyOfCondition
+    conditions:
+    - !type:IsSpeciesCondition
+      species: Vulpkanin
+    - !type:IsSpeciesCondition
+      species: Human
+    - !type:IsSpeciesCondition
+      species: Felinid
+  effects:
+  - !type:OverrideCompsEffect
+    components:
+      - type: Speech
+        speechSounds: Alto
+        allowedEmotes: ['Growl', 'Squeak']
+      - type: Vocal
+        sounds:
+          Male: MaleKitsune
+          Female: FemaleKitsune
+          Unsexed: MaleKitsune
+      - type: TypingIndicator
+        proto: kitsune
+      - type: InteractionPopup
+        successChance: 0.5
+        interactSuccessString: petting-success-soft-floofy-kitsune
+        interactFailureString: petting-failure-generic
+        interactSuccessSpawn: EffectHearts
+        interactSuccessSound:
+          path: /Audio/Animals/fox_squeak.ogg
+      - type: PseudoItem
+        storedOffset: "0,17"
+        shape:
+          - 0,0,1,4
+          - 0,2,3,4
+          - 4,0,5,4
