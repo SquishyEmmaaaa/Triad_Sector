@@ -1,5 +1,14 @@
-# Triad - New Category [Partial is replacement of emotes. Total is replacement of emotes and noise when speaking.]
+# Triad - New Category [Total is replacement of emotes and noise when speaking.]
 # Emote and speech sound replacement.
+# Overriding the speech component with just allowedEmotes, breaks the normal speechSounds and speechVerb.
+# So no partial replacement trait.
+#
+#
+# OverrideCompsEffect wipes the component field and replaces with exactly what is specified,
+# rather than replacing sub-component values when specified.
+# Ideally, we would use RemCompsEffect to remove the componenet and then follow with AddCompsEffect for the items to achieve that behavior.
+# And OverrideCompsEffect would ideally just replace the sub-component fields when/where values are provided.
+# But thats not what was coded, so no partial replacements for now :<
 
 
 # To add a new partial or total replacement trait, use the examples here.
@@ -8,22 +17,6 @@
 # Pull the allowedEmotes from the species yml file. This will replace what emotes someone has available.
 # The components of speechSounds, speechVerb, and vocal sounds also should come from the species yml file.
 
-
-# - type: trait
-#   id: FriendsWith<Species>
-#   name: trait-vocal-<species>-partial-replacement-name
-#   description: trait-vocal-<species>-partial-replacement-desc
-#   category: Emotes
-#   cost: 0
-#   conditions:
-#   - !type:IsSpeciesCondition
-#     species: <Species>
-#     invert: true
-#   effects:
-#   - !type:OverrideCompsEffect
-#     components:
-#     - type: Speech
-#       allowedEmotes:
 
 # - type: trait
 #   id: RaisedBy<Species>
@@ -47,23 +40,6 @@
 #         Male:
 #         Female:
 #         Unsexed:
-
-
-- type: trait
-  id: FriendsWithHarpies
-  name: trait-vocal-harpies-partial-replacement-name
-  description: trait-vocal-harpies-partial-replacement-desc
-  category: Emotes
-  cost: 0
-  conditions:
-  - !type:IsSpeciesCondition
-    species: Harpy
-    invert: true
-  effects:
-  - !type:OverrideCompsEffect
-    components:
-    - type: Speech
-      allowedEmotes: ['Meow', 'Hiss', 'Mew', 'Purr', 'Growl', 'Bark', 'Snarl', 'Whine', 'Howl', 'Awoo', 'Honk', 'HarpyRing', 'HarpyPew', 'HarpyBang', 'Beep', 'HarpyRev', 'HarpyCaw', 'Squish', 'Chitter', 'Squeak', 'Click', 'Belch', 'Squish', Bagawk] # Frontier: add Belch, Squish
 
 - type: trait
   id: RaisedByHarpies
@@ -89,22 +65,6 @@
         Unsexed: SoundsHarpy
 
 - type: trait
-  id: FriendsWithChitinid
-  name: trait-vocal-chitinid-partial-replacement-name
-  description: trait-vocal-chitinid-partial-replacement-desc
-  category: Emotes
-  cost: 0
-  conditions:
-  - !type:IsSpeciesCondition
-    species: Chitinid
-    invert: true
-  effects:
-  - !type:OverrideCompsEffect
-    components:
-    - type: Speech
-      allowedEmotes: ['Chitter', 'Click', 'Hiss']
-
-- type: trait
   id: RaisedByChitinid
   name: trait-vocal-chitinid-total-replacement-name
   description: trait-vocal-chitinid-total-replacement-desc
@@ -125,22 +85,6 @@
         Male: UnisexChitinid
         Female: UnisexChitinid
         Unsexed: UnisexChitinid
-
-- type: trait
-  id: FriendsWithVulpkanin
-  name: trait-vocal-vulpkanin-partial-replacement-name
-  description: trait-vocal-vulpkanin-partial-replacement-desc
-  category: Emotes
-  cost: 0
-  conditions:
-  - !type:IsSpeciesCondition
-    species: Vulpkanin
-    invert: true
-  effects:
-  - !type:ReplaceCompsEffect
-    components:
-    - type: Speech
-      allowedEmotes: ['Bark', 'Snarl', 'Whine', 'Howl', 'Awoo', 'Growl', 'Yip', 'Whimper'] # Starlight / Monolith: Add yip, whine; rename old whine to whimper
 
 - type: trait
   id: RaisedByVulpkanin
