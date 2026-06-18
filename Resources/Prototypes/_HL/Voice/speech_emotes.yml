@@ -8,7 +8,7 @@
     - Vocal
   blacklist:
     tags:
-    - SiliconEmotes
+    - BorgChassis
   chatMessages: ["chat-emote-msg-pout"]
   chatTriggers:
   - pout
