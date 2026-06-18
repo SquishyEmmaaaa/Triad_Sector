@@ -1,4 +1,54 @@
-# Triad New Category
+# Triad - New Category [Partial is replacement of emotes. Total is replacement of emotes and noise when speaking.]
+# Emote and speech sound replacement.
+
+
+# To add a new partial or total replacement trait, use the examples here.
+# 
+# Replace <Species> with a capitalized name of the species, and <species> with the lowercase version.
+# Pull the allowedEmotes from the species yml file. This will replace what emotes someone has available.
+# The components of speechSounds, speechVerb, and vocal sounds also should come from the species yml file.
+
+
+# - type: trait
+#   id: FriendsWith<Species>
+#   name: trait-vocal-<species>-partial-replacement-name
+#   description: trait-vocal-<species>-partial-replacement-desc
+#   category: Emotes
+#   cost: 0
+#   conditions:
+#   - !type:IsSpeciesCondition
+#     species: <Species>
+#     invert: true
+#   effects:
+#   - !type:OverrideCompsEffect
+#     components:
+#     - type: Speech
+#       allowedEmotes:
+
+# - type: trait
+#   id: RaisedBy<Species>
+#   name: trait-vocal-<species>-total-replacement-name
+#   description: trait-vocal-<species>-total-replacement-desc
+#   category: Emotes
+#   cost: 0
+#   conditions:
+#   - !type:IsSpeciesCondition
+#     species: <Species>
+#     invert: true
+#   effects:
+#   - !type:OverrideCompsEffect
+#     components:
+#     - type: Speech
+#       speechSounds:
+#       speechVerb:
+#       allowedEmotes:
+#     - type: Vocal
+#       sounds:
+#         Male:
+#         Female:
+#         Unsexed:
+
+
 - type: trait
   id: FriendsWithHarpies
   name: trait-vocal-harpies-partial-replacement-name
@@ -37,3 +87,80 @@
         Male: SoundsHarpy
         Female: SoundsHarpy
         Unsexed: SoundsHarpy
+
+- type: trait
+  id: FriendsWithChitinid
+  name: trait-vocal-chitinid-partial-replacement-name
+  description: trait-vocal-chitinid-partial-replacement-desc
+  category: Emotes
+  cost: 0
+  conditions:
+  - !type:IsSpeciesCondition
+    species: Chitinid
+    invert: true
+  effects:
+  - !type:OverrideCompsEffect
+    components:
+    - type: Speech
+      allowedEmotes: ['Chitter', 'Click', 'Hiss']
+
+- type: trait
+  id: RaisedByChitinid
+  name: trait-vocal-chitinid-total-replacement-name
+  description: trait-vocal-chitinid-total-replacement-desc
+  category: Emotes
+  cost: 0
+  conditions:
+  - !type:IsSpeciesCondition
+    species: Chitinid
+    invert: true
+  effects:
+  - !type:OverrideCompsEffect
+    components:
+    - type: Speech
+      speechVerb: Chitinid
+      allowedEmotes: ['Chitter', 'Click', 'Hiss']
+    - type: Vocal
+      sounds:
+        Male: UnisexChitinid
+        Female: UnisexChitinid
+        Unsexed: UnisexChitinid
+
+- type: trait
+  id: FriendsWithVulpkanin
+  name: trait-vocal-vulpkanin-partial-replacement-name
+  description: trait-vocal-vulpkanin-partial-replacement-desc
+  category: Emotes
+  cost: 0
+  conditions:
+  - !type:IsSpeciesCondition
+    species: Vulpkanin
+    invert: true
+  effects:
+  - !type:ReplaceCompsEffect
+    components:
+    - type: Speech
+      allowedEmotes: ['Bark', 'Snarl', 'Whine', 'Howl', 'Awoo', 'Growl', 'Yip', 'Whimper'] # Starlight / Monolith: Add yip, whine; rename old whine to whimper
+
+- type: trait
+  id: RaisedByVulpkanin
+  name: trait-vocal-vulpkanin-total-replacement-name
+  description: trait-vocal-vulpkanin-total-replacement-desc
+  category: Emotes
+  cost: 0
+  conditions:
+  - !type:IsSpeciesCondition
+    species: Vulpkanin
+    invert: true
+  effects:
+  - !type:ReplaceCompsEffect
+    components:
+    - type: Speech
+      speechSounds: Vulpkanin
+      speechVerb: Vulpkanin
+      allowedEmotes: ['Bark', 'Snarl', 'Whine', 'Howl', 'Awoo', 'Growl', 'Yip', 'Whimper'] # Starlight / Monolith: Add yip, whine; rename old whine to whimper
+    - type: Vocal
+      sounds:
+        Male: MaleVulpkanin
+        Female: FemaleVulpkanin
+        Unsexed: MaleVulpkanin
