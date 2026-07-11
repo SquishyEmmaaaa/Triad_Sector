@@ -245,6 +245,16 @@ public abstract class RadialMenuButtonBase : BaseButton
             base.KeyBindUp(args);
         }
     }
+
+    /// <inheritdoc />
+    protected override void KeyBindDown(GUIBoundKeyEventArgs args)
+    {
+        if (args.Function == EngineKeyFunctions.UIClick
+            || args.Function == ContentKeyFunctions.AltActivateItemInWorld)
+        {
+            base.KeyBindDown(args);
+        }
+    }
 }
 
 /// <summary>
@@ -289,6 +299,16 @@ public sealed class RadialMenuContextualCentralTextureButton : TextureButton
             || args.Function == ContentKeyFunctions.AltActivateItemInWorld)
         {
             base.KeyBindUp(args);
+        }
+    }
+
+    /// <inheritdoc />
+    protected override void KeyBindDown(GUIBoundKeyEventArgs args)
+    {
+        if (args.Function == EngineKeyFunctions.UIClick
+            || args.Function == ContentKeyFunctions.AltActivateItemInWorld)
+        {
+            base.KeyBindDown(args);
         }
     }
 }
