@@ -23,7 +23,7 @@ public sealed partial class RPDMenu : RadialMenu
 {
     [Dependency] private readonly ILocalizationManager _locManager = default!;
 
-    private readonly RCDMenu _rcdMenu;
+    private readonly RPDMenu _rcdMenu;
     private string? _selectedColor;
 
     public event Action<string>? ColorSelected;
@@ -38,7 +38,7 @@ public sealed partial class RPDMenu : RadialMenu
     {
         IoCManager.InjectDependencies(this);
         RobustXamlLoader.Load(this);
-        _rcdMenu = new RCDMenu();
+        _rcdMenu = new RPDMenu();
         var rcdHolder = FindControl<Control>("RCDMenuHolder");
         rcdHolder.AddChild(_rcdMenu);
         _rcdMenu.OnClose += Close;
