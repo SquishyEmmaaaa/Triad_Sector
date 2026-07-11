@@ -1,4 +1,3 @@
-using Content.Shared._EstacaoPirata.Cards.Hand;
 using Content.Client.UserInterface.Controls;
 using Content.Shared._EstacaoPirata.Cards.Card;
 using Content.Shared._EstacaoPirata.Cards.Hand;
