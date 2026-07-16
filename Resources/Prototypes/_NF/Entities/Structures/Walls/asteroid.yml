@@ -651,24 +651,6 @@
     oreRarityPrototypeId: RandomOreDistributionStandard
 # endregion Scrap with Ore
 
-# region AsteroidRock Crabs
-- type: entity
-  id: NFAsteroidRockQuartzCrab
-  parent: AsteroidRockQuartzCrab
-
-- type: entity
-  id: NFAsteroidRockSilverCrab
-  parent: AsteroidRockSilverCrab
-
-- type: entity
-  id: NFAsteroidRockTinCrab
-  parent: AsteroidRockTinCrab
-
-- type: entity
-  id: NFAsteroidRockUraniumCrab
-  parent: AsteroidRockUraniumCrab
-# endregion AsteroidRock Crabs
-
 # region Bananium Crabs
 - type: entity
   id: NFWallRockAndesiteBananiumCrab
