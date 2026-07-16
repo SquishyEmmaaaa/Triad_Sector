@@ -11,7 +11,7 @@
     # - id: CockroachMigration #Triad edit - Disable
     - id: GasLeak
     #- id: GreytideVirus
-    - id: IonStorm # its calm like 90% of the time smh
+    - id: NFIonStorm # its calm like 90% of the time smh
     # - id: KudzuGrowth
     # - id: MassHallucinations # Frontier
     # - id: MimicVendorRule

@@ -196,7 +196,7 @@ CrateMaterials: CrateMaterialsBasicFilled
 ColoredLightTubeRed: LightTubeCrystalRed
 ColoredBlueLightTube: LightTubeCrystalBlue
 ColoredLightTubeCyan: LightTubeCrystalCyan
-ColoredLightTubeBlackLight: ColoredLightTubeUltraviolet
+ColoredLightTubeBlackLight: LightTubeUltraviolet
 PoweredlightColoredRed: PoweredlightRed
 PoweredlightBlueInterior: PoweredlightBlue
 PoweredlightColoredFrostyBlue: PoweredlightCyan
@@ -226,19 +226,28 @@ VendingMachineChefvendDungeon: Biogenerator
 WeaponRifleSVT: WeaponRifleSVS
 
 # 2025-03-26 Upstream merge
-AsteroidRockBananiumCrab: AsteroidRockBananiumCrabNF
-AsteroidRockPlasmaCrab: AsteroidRockPlasmaCrabNF
-AsteroidRockSaltCrab: AsteroidRockSaltCrabNF
-MobBananiumCrab: MobBananiumCrabNF
-MobCoalCrab: MobCoalCrabNF
-MobGoldCrab: MobGoldCrabNF
-MobPlasmaCrab: MobPlasmaCrabNF
-MobSaltCrab: MobSaltCrabNF
-WallSpawnAsteroidBananiumCrab: WallSpawnAsteroidBananiumCrabNF
-WallSpawnAsteroidCoalCrab: WallSpawnAsteroidCoalCrabNF
-WallSpawnAsteroidGoldCrab: WallSpawnAsteroidGoldCrabNF
-WallSpawnAsteroidPlasmaCrab: WallSpawnAsteroidPlasmaCrabNF
-WallSpawnAsteroidSaltCrab: WallSpawnAsteroidSaltCrabNF
+# 2025-03-26 Upstream merge
+AsteroidRockCoalCrab: NFAsteroidRockCoalCrab
+AsteroidRockGoldCrab: NFAsteroidRockGoldCrab
+AsteroidRockTinCrab: NFAsteroidRockIronCrab
+AsteroidRockPlasmaCrab: NFAsteroidRockPlasmaCrab
+AsteroidRockQuartzCrab: NFAsteroidRockQuartzCrab
+AsteroidRockSilverCrab: NFAsteroidRockSilverCrab
+AsteroidRockUraniumCrab: NFAsteroidRockUraniumCrab
+MobCoalCrab: NFMobCoalCrab
+MobGoldCrab: NFMobGoldCrab
+MobIronCrab: NFMobIronCrab
+MobPlasmaCrab: NFMobPlasmaCrab
+MobQuartzCrab: NFMobQuartzCrab
+MobSilverCrab: NFMobSilverCrab
+MobUraniumCrab: NFMobUraniumCrab
+WallSpawnAsteroidCoalCrab: NFWallSpawnAsteroidCoalCrab
+WallSpawnAsteroidGoldCrab: NFWallSpawnAsteroidGoldCrab
+WallSpawnAsteroidIronCrab: NFWallSpawnAsteroidIronCrab
+WallSpawnAsteroidPlasmaCrab: NFWallSpawnAsteroidPlasmaCrab
+WallSpawnAsteroidQuartzCrab: NFWallSpawnAsteroidQuartzCrab
+WallSpawnAsteroidSilverCrab: NFWallSpawnAsteroidSilverCrab
+WallSpawnAsteroidUraniumCrab: NFWallSpawnAsteroidUraniumCrab
 
 # 2025-04-19 Material Magnet Boxes (Frontier #3269)
 OreBox: NFMagnetBoxOre
