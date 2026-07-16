@@ -1122,7 +1122,7 @@
 
 # - type: entity
 #   id: NFWallSandstoneDiamondCrab
-#   parent: [NF, NFWallSandstoneDiamond]
+#   parent: [NFBaseDiamondCrabVein, NFWallSandstoneDiamond]
 #   suffix: Diamond Crab
 
 - type: entity
