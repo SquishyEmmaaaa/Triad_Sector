@@ -805,7 +805,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: NFOreBananiumCrabNF
+      currentOre: NFOreBananiumCrab
 
 - type: entity
   id: NFWallRockSnowBananiumGolem

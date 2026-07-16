@@ -8,7 +8,7 @@
     sprite: /Textures/_NF/Effects/mobspawn.rsi
     state: crab_bananium
   - type: SpawnOnDespawn
-    prototype: MobBananiumCrab
+    prototype: NFMobBananiumCrab
 
 - type: entity
   id: MobSpawnCoalCrab
@@ -19,7 +19,7 @@
     sprite: /Textures/_NF/Effects/mobspawn.rsi
     state: crab_coal
   - type: SpawnOnDespawn
-    prototype: MobCoalCrab
+    prototype: NFMobCoalCrab
 
 - type: entity
   id: MobSpawnGoldCrab
@@ -30,7 +30,7 @@
     sprite: /Textures/_NF/Effects/mobspawn.rsi
     state: crab_gold
   - type: SpawnOnDespawn
-    prototype: MobGoldCrab
+    prototype: NFMobGoldCrab
 
 - type: entity
   id: MobSpawnPlasmaCrab
@@ -41,7 +41,7 @@
     sprite: /Textures/_NF/Effects/mobspawn.rsi
     state: crab_plasma
   - type: SpawnOnDespawn
-    prototype: MobPlasmaCrab
+    prototype: NFMobPlasmaCrab
 
 - type: entity
   id: MobSpawnSaltCrab
@@ -52,7 +52,7 @@
     sprite: /Textures/_NF/Effects/mobspawn.rsi
     state: crab_salt
   - type: SpawnOnDespawn
-    prototype: MobSaltCrab
+    prototype: NFMobSaltCrab
 
 # Frontier
 - type: entity
