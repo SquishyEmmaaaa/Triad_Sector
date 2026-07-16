@@ -604,7 +604,7 @@
       weight: 0.01
     - id: WallRockSandDiamond
       weight: 0.002
-    - id: WallRockSandBluespace
+    - id: NFWallRockSandBluespace
       weight: 0.002
     - id: NFSandElementalSpawner
       weight: 0.05
