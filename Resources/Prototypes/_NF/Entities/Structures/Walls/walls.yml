@@ -815,7 +815,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: NFOreBananiumCrab
 
 - type: entity
   id: NFWallIceCoalCrab
@@ -824,7 +824,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: NFOreCoalCrab
 
 # - type: entity
 #   id: NFWallIceDiamondCrab
@@ -833,7 +833,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondCrabNF
+#       currentOre: NFOreDiamondCrab
 
 - type: entity
   id: NFWallIceGoldCrab
@@ -842,7 +842,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: NFOreGoldCrab
 
 - type: entity
   id: NFWallIceTinCrab
@@ -851,7 +851,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: NFOreIronCrab
 
 - type: entity
   id: NFWallIcePlasmaCrab
@@ -860,7 +860,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: NFOrePlasmaCrab
 
 - type: entity
   id: NFWallIceQuartzCrab
@@ -869,7 +869,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: NFOreQuartzCrab
 
 - type: entity
   id: NFWallIceSaltCrab
@@ -878,7 +878,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: NFOreSaltCrab
 
 - type: entity
   id: NFWallIceSilverCrab
@@ -887,7 +887,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: NFOreSilverCrab
 
 - type: entity
   id: NFWallIceUraniumCrab
@@ -896,7 +896,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: NFOreUraniumCrab
 
 - type: entity
   id: NFWallIceBananiumGolem
@@ -905,7 +905,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: NFOreBananiumGolem
 
 - type: entity
   id: NFWallIceCoalGolem
@@ -914,7 +914,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: NFOreCoalGolem
 
 # - type: entity
 #   id: NFWallIceDiamondGolem
@@ -923,7 +923,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondGolem
+#       currentOre: NFOreDiamondGolem
 
 - type: entity
   id: NFWallIceGoldGolem
@@ -932,7 +932,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: NFOreGoldGolem
 
 - type: entity
   id: NFWallIceIronGolem
@@ -941,7 +941,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: NFOreIronGolem
 
 - type: entity
   id: NFWallIcePlasmaGolem
@@ -950,7 +950,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: NFOrePlasmaGolem
 
 - type: entity
   id: NFWallIceQuartzGolem
@@ -959,7 +959,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: NFOreQuartzGolem
 
 - type: entity
   id: NFWallIceSaltGolem
@@ -968,7 +968,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: NFOreSaltGolem
 
 - type: entity
   id: NFWallIceSilverGolem
@@ -977,7 +977,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: NFOreSilverGolem
 
 - type: entity
   id: NFWallIceUraniumGolem
@@ -986,7 +986,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: NFOreUraniumGolem
 # endregion Ice Mobs
 
 # region Sandstone Ores
@@ -1277,7 +1277,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: NFOreBananiumCrab
 
 - type: entity
   id: NFWallSandstoneCoalCrab
@@ -1286,7 +1286,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: NFOreCoalCrab
 
 # - type: entity
 #   id: NFWallSandstoneDiamondCrab
@@ -1295,7 +1295,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondCrabNF
+#       currentOre: NFOreDiamondCrab
 
 - type: entity
   id: NFWallSandstoneGoldCrab
@@ -1304,7 +1304,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: NFOreGoldCrab
 
 - type: entity
   id: NFWallSandstoneTinCrab
@@ -1313,7 +1313,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: NFOreIronCrab
 
 - type: entity
   id: NFWallSandstonePlasmaCrab
@@ -1322,7 +1322,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: NFOrePlasmaCrab
 
 - type: entity
   id: NFWallSandstoneQuartzCrab
@@ -1331,7 +1331,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: NFOreQuartzCrab
 
 - type: entity
   id: NFWallSandstoneSaltCrab
@@ -1340,7 +1340,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: NFOreSaltCrab
 
 - type: entity
   id: NFWallSandstoneSilverCrab
@@ -1349,7 +1349,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: NFOreSilverCrab
 
 - type: entity
   id: NFWallSandstoneUraniumCrab
@@ -1358,7 +1358,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: NFOreUraniumCrab
 
 - type: entity
   id: NFWallSandstoneBananiumGolem
@@ -1367,7 +1367,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: NFOreBananiumGolem
 
 - type: entity
   id: NFWallSandstoneCoalGolem
@@ -1376,7 +1376,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: NFOreCoalGolem
 
 # - type: entity
 #   id: NFWallSandstoneDiamondGolem
@@ -1385,7 +1385,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondGolem
+#       currentOre: NFOreDiamondGolem
 
 - type: entity
   id: NFWallSandstoneGoldGolem
@@ -1394,7 +1394,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: NFOreGoldGolem
 
 - type: entity
   id: NFWallSandstoneIronGolem
@@ -1403,7 +1403,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: NFOreIronGolem
 
 - type: entity
   id: NFWallSandstonePlasmaGolem
@@ -1412,7 +1412,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: NFOrePlasmaGolem
 
 - type: entity
   id: NFWallSandstoneQuartzGolem
@@ -1421,7 +1421,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: NFOreQuartzGolem
 
 - type: entity
   id: NFWallSandstoneSaltGolem
@@ -1430,7 +1430,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: NFOreSaltGolem
 
 - type: entity
   id: NFWallSandstoneSilverGolem
@@ -1439,7 +1439,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: NFOreSilverGolem
 
 - type: entity
   id: NFWallSandstoneUraniumGolem
@@ -1448,7 +1448,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: NFOreUraniumGolem
 # endregion Sandstone Mobs
 
 # region Necropolis Ores
@@ -1738,7 +1738,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: NFOreBananiumCrab
 
 - type: entity
   id: NFWallNecropolisCoalCrab
@@ -1747,7 +1747,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: NFOreCoalCrab
 
 # - type: entity
 #   id: NFWallNecropolisDiamondCrab
@@ -1756,7 +1756,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondCrabNF
+#       currentOre: NFOreDiamondCrab
 
 - type: entity
   id: NFWallNecropolisGoldCrab
@@ -1765,7 +1765,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: NFOreGoldCrab
 
 - type: entity
   id: NFWallNecropolisTinCrab
@@ -1774,7 +1774,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: NFOreIronCrab
 
 - type: entity
   id: NFWallNecropolisPlasmaCrab
@@ -1783,7 +1783,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: NFOrePlasmaCrab
 
 - type: entity
   id: NFWallNecropolisQuartzCrab
@@ -1792,7 +1792,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: NFOreQuartzCrab
 
 - type: entity
   id: NFWallNecropolisSaltCrab
@@ -1801,7 +1801,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: NFOreSaltCrab
 
 - type: entity
   id: NFWallNecropolisSilverCrab
@@ -1810,7 +1810,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: NFOreSilverCrab
 
 - type: entity
   id: NFWallNecropolisUraniumCrab
@@ -1819,7 +1819,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: NFOreUraniumCrab
 
 - type: entity
   id: NFWallNecropolisBananiumGolem
@@ -1828,7 +1828,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: NFOreBananiumGolem
 
 - type: entity
   id: NFWallNecropolisCoalGolem
@@ -1837,7 +1837,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: NFOreCoalGolem
 
 # - type: entity
 #   id: NFWallNecropolisDiamondGolem
@@ -1846,7 +1846,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondGolem
+#       currentOre: NFOreDiamondGolem
 
 - type: entity
   id: NFWallNecropolisGoldGolem
@@ -1855,7 +1855,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: NFOreGoldGolem
 
 - type: entity
   id: NFWallNecropolisIronGolem
@@ -1864,7 +1864,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: NFOreIronGolem
 
 - type: entity
   id: NFWallNecropolisPlasmaGolem
@@ -1873,7 +1873,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: NFOrePlasmaGolem
 
 - type: entity
   id: NFWallNecropolisQuartzGolem
@@ -1882,7 +1882,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: NFOreQuartzGolem
 
 - type: entity
   id: NFWallNecropolisSaltGolem
@@ -1891,7 +1891,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: NFOreSaltGolem
 
 - type: entity
   id: NFWallNecropolisSilverGolem
@@ -1900,7 +1900,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: NFOreSilverGolem
 
 - type: entity
   id: NFWallNecropolisUraniumGolem
@@ -1909,7 +1909,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: NFOreUraniumGolem
 # endregion Necropolis Mobs
 
 # region BasaltCobblebrick Ores
@@ -2199,7 +2199,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: NFOreBananiumCrab
 
 - type: entity
   id: NFWallBasaltCobblebrickCoalCrab
@@ -2208,7 +2208,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: NFOreCoalCrab
 
 # - type: entity
 #   id: NFWallBasaltCobblebrickDiamondCrab
@@ -2217,7 +2217,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondCrabNF
+#       currentOre: NFOreDiamondCrab
 
 - type: entity
   id: NFWallBasaltCobblebrickGoldCrab
@@ -2226,7 +2226,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: NFOreGoldCrab
 
 - type: entity
   id: NFWallBasaltCobblebrickTinCrab
@@ -2235,7 +2235,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: NFOreIronCrab
 
 - type: entity
   id: NFWallBasaltCobblebrickPlasmaCrab
@@ -2244,7 +2244,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: NFOrePlasmaCrab
 
 - type: entity
   id: NFWallBasaltCobblebrickQuartzCrab
@@ -2253,7 +2253,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: NFOreQuartzCrab
 
 - type: entity
   id: NFWallBasaltCobblebrickSaltCrab
@@ -2262,7 +2262,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: NFOreSaltCrab
 
 - type: entity
   id: NFWallBasaltCobblebrickSilverCrab
@@ -2271,7 +2271,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: NFOreSilverCrab
 
 - type: entity
   id: NFWallBasaltCobblebrickUraniumCrab
@@ -2280,7 +2280,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: NFOreUraniumCrab
 
 - type: entity
   id: NFWallBasaltCobblebrickBananiumGolem
@@ -2289,7 +2289,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: NFOreBananiumGolem
 
 - type: entity
   id: NFWallBasaltCobblebrickCoalGolem
@@ -2298,7 +2298,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: NFOreCoalGolem
 
 # - type: entity
 #   id: NFWallBasaltCobblebrickDiamondGolem
@@ -2307,7 +2307,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondGolem
+#       currentOre: NFOreDiamondGolem
 
 - type: entity
   id: NFWallBasaltCobblebrickGoldGolem
@@ -2316,7 +2316,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: NFOreGoldGolem
 
 - type: entity
   id: NFWallBasaltCobblebrickIronGolem
@@ -2325,7 +2325,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: NFOreIronGolem
 
 - type: entity
   id: NFWallBasaltCobblebrickPlasmaGolem
@@ -2334,7 +2334,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: NFOrePlasmaGolem
 
 - type: entity
   id: NFWallBasaltCobblebrickQuartzGolem
@@ -2343,7 +2343,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: NFOreQuartzGolem
 
 - type: entity
   id: NFWallBasaltCobblebrickSaltGolem
@@ -2352,7 +2352,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: NFOreSaltGolem
 
 - type: entity
   id: NFWallBasaltCobblebrickSilverGolem
@@ -2361,7 +2361,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: NFOreSilverGolem
 
 - type: entity
   id: NFWallBasaltCobblebrickUraniumGolem
@@ -2370,7 +2370,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: NFOreUraniumGolem
 # endregion BasaltCobblebrick Mobs
 
 # region ChromiteCobblebrick Ores
@@ -2660,7 +2660,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: NFOreBananiumCrab
 
 - type: entity
   id: NFWallChromiteCobblebrickCoalCrab
@@ -2669,7 +2669,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: NFOreCoalCrab
 
 # - type: entity
 #   id: NFWallChromiteCobblebrickDiamondCrab
@@ -2678,7 +2678,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondCrabNF
+#       currentOre: NFOreDiamondCrab
 
 - type: entity
   id: NFWallChromiteCobblebrickGoldCrab
@@ -2687,7 +2687,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: NFOreGoldCrab
 
 - type: entity
   id: NFWallChromiteCobblebrickTinCrab
@@ -2696,7 +2696,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: NFOreIronCrab
 
 - type: entity
   id: NFWallChromiteCobblebrickPlasmaCrab
@@ -2705,7 +2705,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: NFOrePlasmaCrab
 
 - type: entity
   id: NFWallChromiteCobblebrickQuartzCrab
@@ -2714,7 +2714,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: NFOreQuartzCrab
 
 - type: entity
   id: NFWallChromiteCobblebrickSaltCrab
@@ -2723,7 +2723,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: NFOreSaltCrab
 
 - type: entity
   id: NFWallChromiteCobblebrickSilverCrab
@@ -2732,7 +2732,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: NFOreSilverCrab
 
 - type: entity
   id: NFWallChromiteCobblebrickUraniumCrab
@@ -2741,7 +2741,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: NFOreUraniumCrab
 
 - type: entity
   id: NFWallChromiteCobblebrickBananiumGolem
@@ -2750,7 +2750,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: NFOreBananiumGolem
 
 - type: entity
   id: NFWallChromiteCobblebrickCoalGolem
@@ -2759,7 +2759,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: NFOreCoalGolem
 
 # - type: entity
 #   id: NFWallChromiteCobblebrickDiamondGolem
@@ -2768,7 +2768,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondGolem
+#       currentOre: NFOreDiamondGolem
 
 - type: entity
   id: NFWallChromiteCobblebrickGoldGolem
@@ -2777,7 +2777,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: NFOreGoldGolem
 
 - type: entity
   id: NFWallChromiteCobblebrickIronGolem
@@ -2786,7 +2786,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: NFOreIronGolem
 
 - type: entity
   id: NFWallChromiteCobblebrickPlasmaGolem
@@ -2795,7 +2795,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: NFOrePlasmaGolem
 
 - type: entity
   id: NFWallChromiteCobblebrickQuartzGolem
@@ -2804,7 +2804,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: NFOreQuartzGolem
 
 - type: entity
   id: NFWallChromiteCobblebrickSaltGolem
@@ -2813,7 +2813,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: NFOreSaltGolem
 
 - type: entity
   id: NFWallChromiteCobblebrickSilverGolem
@@ -2822,7 +2822,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: NFOreSilverGolem
 
 - type: entity
   id: NFWallChromiteCobblebrickUraniumGolem
@@ -2831,7 +2831,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: NFOreUraniumGolem
 # endregion ChromiteCobblebrick Mobs
 
 # region AndesiteCobblebrick Ores
@@ -3121,7 +3121,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: NFOreBananiumCrab
 
 - type: entity
   id: NFWallAndesiteCobblebrickCoalCrab
@@ -3130,7 +3130,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: NFOreCoalCrab
 
 # - type: entity
 #   id: NFWallAndesiteCobblebrickDiamondCrab
@@ -3139,7 +3139,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondCrabNF
+#       currentOre: NFOreDiamondCrab
 
 - type: entity
   id: NFWallAndesiteCobblebrickGoldCrab
@@ -3148,7 +3148,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: NFOreGoldCrab
 
 - type: entity
   id: NFWallAndesiteCobblebrickTinCrab
@@ -3157,7 +3157,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: NFOreIronCrab
 
 - type: entity
   id: NFWallAndesiteCobblebrickPlasmaCrab
@@ -3166,7 +3166,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: NFOrePlasmaCrab
 
 - type: entity
   id: NFWallAndesiteCobblebrickQuartzCrab
@@ -3175,7 +3175,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: NFOreQuartzCrab
 
 - type: entity
   id: NFWallAndesiteCobblebrickSaltCrab
@@ -3193,7 +3193,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: NFOreSilverCrab
 
 - type: entity
   id: NFWallAndesiteCobblebrickUraniumCrab
@@ -3202,7 +3202,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: NFOreUraniumCrab
 
 - type: entity
   id: NFWallAndesiteCobblebrickBananiumGolem
@@ -3211,7 +3211,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: NFOreBananiumGolem
 
 - type: entity
   id: NFWallAndesiteCobblebrickCoalGolem
@@ -3220,7 +3220,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: NFOreCoalGolem
 
 # - type: entity
 #   id: NFWallAndesiteCobblebrickDiamondGolem
@@ -3229,7 +3229,7 @@
 #   components:
 #     - type: OreVein
 #       oreChance: 1.0
-#       currentOre: OreDiamondGolem
+#       currentOre: NFOreDiamondGolem
 
 - type: entity
   id: NFWallAndesiteCobblebrickGoldGolem
@@ -3238,7 +3238,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: NFOreGoldGolem
 
 - type: entity
   id: NFWallAndesiteCobblebrickIronGolem
@@ -3247,7 +3247,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: NFOreIronGolem
 
 - type: entity
   id: NFWallAndesiteCobblebrickPlasmaGolem
@@ -3256,7 +3256,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: NFOrePlasmaGolem
 
 - type: entity
   id: NFWallAndesiteCobblebrickQuartzGolem
@@ -3265,7 +3265,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: NFOreQuartzGolem
 
 - type: entity
   id: NFWallAndesiteCobblebrickSaltGolem
@@ -3274,7 +3274,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: NFOreSaltGolem
 
 - type: entity
   id: NFWallAndesiteCobblebrickSilverGolem
@@ -3283,7 +3283,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: NFOreSilverGolem
 
 - type: entity
   id: NFWallAndesiteCobblebrickUraniumGolem
@@ -3292,5 +3292,5 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: NFOreUraniumGolem
 # endregion AndesiteCobblebrick Mobs
