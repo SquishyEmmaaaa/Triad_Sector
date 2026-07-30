@@ -21,7 +21,7 @@ public sealed class EmotesUIController : UIController, IOnStateChanged<GameplayS
     [Dependency] private readonly IEntityManager _entityManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly IPlayerManager _playerManager = default!;
-    
+
     private MenuButton? EmotesButton => UIManager.GetActiveUIWidgetOrNull<MenuBar.Widgets.GameTopMenuBar>()?.EmotesButton;
     private SimpleRadialMenu? _menu;
 
@@ -56,8 +56,6 @@ public sealed class EmotesUIController : UIController, IOnStateChanged<GameplayS
 
             _menu = new SimpleRadialMenu();
             _menu.SetButtons(models);
-
-            _menu.Open();
 
             _menu.OnClose += OnWindowClosed;
             _menu.OnOpen += OnWindowOpen;
@@ -138,9 +136,6 @@ public sealed class EmotesUIController : UIController, IOnStateChanged<GameplayS
         Dictionary<EmoteCategory, List<RadialMenuOptionBase>> emotesByCategory = new();
         foreach (var emote in emotePrototypes)
         {
-            if(emote.Category == EmoteCategory.Invalid)
-                continue;
-
             // only valid emotes that have ways to be triggered by chat and player have access / no restriction on
             if (emote.Category == EmoteCategory.Invalid
                 || emote.ChatTriggers.Count == 0
